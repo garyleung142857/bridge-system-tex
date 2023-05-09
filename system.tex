@@ -1,0 +1,1940 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{relsize}
+\setlength\parindent{0pt}
+\setlength{\emergencystretch}{100em}
+\hbadness = 99999
+%\usepackage{natbib}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[light, semibold]{sourceserifpro}
+\usepackage[T1]{fontenc}
+
+\renewcommand{\sp}{\ensuremath\spadesuit}
+\newcommand{\he}{\ensuremath\heartsuit}
+\newcommand{\di}{\ensuremath\diamondsuit}
+\newcommand{\cl}{\ensuremath\clubsuit}
+\newcommand{\nt}{\relsize{-1}NT\relsize{1}}
+\newcommand{\up}{\textsuperscript{+}}
+\newcommand{\down}{\textsuperscript{-}}
+
+
+\begin{document}
+\fontfamily{lmr}
+\normalfont
+\twocolumn
+\setlength{\columnseprule}{0.5pt}
+\Large{Hybrid System} \\
+\large{For partnerships with a lot of time}
+\normalsize
+\tableofcontents
+
+\section{Structure}
+
+\begin{tabular}{|l|p{6.5cm}}
+ 1\cl{} & 11-21 5\up\cl{} unbal or 441\di{}4 or 15-19 Bal \\
+ 1\di{} & 11-21 4\up\di{} unbal \\
+ 1\he{} & (12)13\up{} 5\up\he{} Forcing \\
+ 1\sp{} & (12)13\up{} 5\up\sp{} Forcing \\
+ 1\nt{} & (11)12-14 Bal. Include 5M332 \\
+ 2\cl{} & (9)10-12 5\up4\up majors or Artificial strong \\
+ 2\di{} & (8)10-12. 6\up{} \he{} / \sp{} \\
+ 2\he{} & (9)10-12 5\up\he{} 4\up{}m \\
+ 2\sp{} & (9)10-12 5\up\sp{} 4\up{}m \\
+ 2\nt & 20-21 Bal. Include 5M332 \\
+ 3/4/5X & Natural preempt \\
+ 3\nt & 7\up{} minor suit headed by AKQ, no side A/K \\
+\end{tabular}\\\\
+
+Open all 12\up{} hands; Open 11 HCP hands with at least a 6-card suit or 5431 distribution and no wasted values. \\\\
+After 1m openings, responder bids on all 6\up{} hands. Responder may bid on some 3-5 HCP hands. \\\\
+1M openings are 2 points stronger than 1m openings, unlimited, and forcing. \\\\
+1-level responses are limited to Game-Forcing Values. Responder should make a jump shift with much extra. \\\\
+2-level bids are intermediate at 1\textsuperscript{st}, 2\textsuperscript{nd}, and 4\textsuperscript{th} seat. At third seat can be very weak.\\\\ 
+Preemptive openings are highly subjected to vulnerability, suit quality, and seats. \\
+
+\section{Notations}
+\begin{tabular}{|l|p{5.5cm}}
+	Notation & Meaning \\
+	Bal / unBal & Balance / unbalance \\
+	M / m & Major / minor \\
+	oM / om & Other major / other minor \\
+	X / Y / Z & Unbid / unmentioned suit \\
+	NF / F1R / I / I\up & Non-forcing / Force one round / Invitational / Invitational or better \\
+	COG / FG / FG= / ST & Choice of game / Forcing to game / Forcing to game only / Slam try \\
+	P/C & Pass or correct  \\
+	J / NJ & Jump / Non-jump (suit) \\
+	Art / Nat & Artificial / Natural \\
+	Dbl / Rdbl & Double / redouble \\
+	\up{} & Equal or more in terms of HCP (18\up{}) or length (5\up\he{}), or equal or higher in level (2\cl{}\up{}) \\
+	\down{} & equal or less, or equal or lower \\
+	4\up\sp{} / 4=\sp{} / 4\down\sp{} & Not less than 4 cards / Exactly 4 cards / Not more than 4 cards in \sp{}\\
+	5431 / =1534 & Any 5431 / 1534 in \sp{}\he{}\di{}\cl{} order \\
+	s/v & Singleton or void \\
+ 	Nat. Cont. & Natural Continuation \\
+	$\sim$ & Similar to / approximate \\
+	+ve / -ve & Positive / Negative (response) \\
+	KC & Key card \\
+	T & Trump. TQ = trump Queen  \\
+\end{tabular}
+
+\section{System Conventions}
+\subsection{Gazzillis}
+
+The following sequences are different forms of Gazzilli: \\
+Can be 3\up{} cards in partner's suit
+\begin{itemize}
+	\itemsep0em
+	\item 1\cl{} - 1\di{}/\he{}; 1\he{}/\sp{}
+	\item 1\di{} - 1\he{}/\sp{}; 1\nt{}
+	\item 1\he{} - 1\sp{}; 1\nt{}
+\end{itemize}
+Can be 4\up{}\cl{}: 1\di{}/\he{}/\sp{} - 1\nt{}; 2\cl{} \\
+No weak cases: 1\cl{} - 1\sp{}; 2\he{}/\sp{} \\
+
+After (1) a negative response from responder and opener’s strong bid, or (2) a positive response from responder and opener’s weak response, only new suits and jump bids below game are forcing. 
+
+\begin{table}[htbp]
+    \centering
+    \caption{Gazzilli Bids and +ve Responses}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+         & \multicolumn{4}{|c|}{Respond} \\\hline
+        % (+ve Resp.) & \multicolumn{4}{|c|}{} \\\hline
+        Open & 1\di{} & 1\he{} & 1\sp{} & 1\nt{} \\\hline
+        1\cl{} & 1\he{}(1\nt{}) & 1\sp{}(1\nt{}) & 2\he{}(2\sp{}) / 2\sp{}(2\nt) & - \\\hline
+        1\di{} & - & 1\nt{}(2\cl) & 1\nt{}(2\cl{}) & 2\cl{}(2\he{}) \\\hline
+        1\he{} & - & - & 1\nt{}(2\cl{}) & 2\cl{}(2\di{}) \\\hline
+        1\sp{} & - & - & - & 2\cl{}(2\di{}) \\\hline
+    \end{tabular}
+\end{table}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\di{}; 1\he{} - ?}\\
+    1\sp{} & Natural. 6-7 \\
+    2\cl{}/\di{}/\he{} & Natural. 6-7 \\
+    1\nt{} & 8\up{} . Then \\
+    & $\cdot$ 2\cl{}: 11-15 5\up{}\cl{} 3=\he{} unbal \\
+    & $\cdot$ 2\di{}: 11-15 5\up{}\cl{} 4=\he{} (=4414) unbal. \\
+    & $\cdot$ 2\he{}: 16\up{} 3\up{}\he{}. 2\nt{} by either player denies extra length in \he{}\\
+    & $\cdot$ 2\nt{}: 18-19 Bal\\
+    & $\cdot$ NJ suit: 16\up{} 2\down{}\he{} Nat\\
+\end{tabular}\\
+$\sim$ 1\cl{} - 1\he{}; 1\sp{}\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\sp{}; 2\he{} - ?} \\
+    2\nt{} & 6-7 long \di{} with \cl{} Tolerance \\
+    3\cl{} & 6-7 NF \\
+    3\di{} & 6-7 long \di{} without \cl{} Tolerance \\
+    2\sp{} & 8\up{}. Then \\
+    & $\cdot$ 2\nt: 18-19 Bal. FG. \\
+    & $\cdot$ 3\cl{}: 16-18 long \cl{}. NF. responder then bid 3M to seek for stopper, or 3\di{} as a natural forcing bid. \\
+    & $\cdot$ 3X: 19\up{} long \cl{}. s/v in X. FG. \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\sp{}; 2\sp{} - ?}\\
+     3m & 6\down{} NF. \\
+     2\nt & 8\up{}. FG. Opener rebid 3\cl{} or 3\di{} to show 16-18. Higher rebids would show 19\up{}. \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 1M; 1\nt{} - ?}\\
+    2\di{} & 6-7 NF \\
+    2\he{} & (after 1\sp{}) 6-7 5\up{}\sp{} 4\up{}\he{} \\
+    2M & 6-7 5\up{}M NF \\
+    3\cl{} & 6-7 6\up{}\cl{}. No \di{} tolerance \\
+    2\cl{} & 8\up{}. Then \\
+    & $\cdot$ 2\di{}: 11-15 5\up{}\di{} 3=\he{}/\sp{} \\
+    & $\cdot$ 2M: 16\up{}. 3\up{}M. 2\nt{} by either player denies extra length in the major \\
+    & $\cdot$ 2\nt{}: 16\up{} 4441M \\
+    & $\cdot$ NJ Suit: Natural FG. 2\down{}\he{}/\sp{}\\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 1\nt{}; 2\cl{} - ?}\\
+    2\di{} & 6-7 NF Tolerance for \di{} \\
+    2\sp{} & 6-7 6\up{}\cl{}. No tolerance for \di{} \\
+    2\he{} & 8\up{}. Then \\
+    & $\cdot$ 2\sp{} 16\up{} \di{} + \cl{} \\
+    & $\cdot$ 2\nt{} 14-15 5\up{}\di{} 4\up{}\cl{}. Pass/3m/3\nt{} is to play. 3M is stopper asking / splinter. \\
+    & $\cdot$ 3\cl{} 11-13 5\up{}\di{} 4\up{}\cl{} \\
+    & $\cdot$ 3\di{} 16\up{} 6\up{}\di{}. 3M are cue-bids \\
+    & $\cdot$ 3M 16\up{} 5=\di{} 4=M short oM \\
+    & $\cdot$ 3\nt{} 16\up{} 5=\di{} short \cl{} \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\he{} - 1\sp{}; 1\nt{} - ?}\\
+    2\di{} & 6\down 4=\sp{} \\
+    2\he{} & 6\down Preference \\
+    2\sp{} & 6\down 5\up{}\sp{} \\
+    2\cl{} & 7\up{}. Then \\
+    & $\cdot$ 2\di{}: 15-17 Bal \\
+    & $\cdot$ 2\he{}: 13-17 5\up{}\he{} 3=\sp{} unbal \\
+    & $\cdot$ 2\sp{}: 18\up{} 3\up{}\sp{}. 2\nt{} by responder denies 5th \sp{} \\
+    & $\cdot$ 2\nt{}: 18-19 Bal \\
+    & $\cdot$ 3X: Nat. 2\down{}\sp{}
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\he{}/\sp{} - 1\nt{}; 2\cl{} - ?}\\
+    2\di{} & 7\up{}. 2\he{}/\sp{} is 11-15 with \cl{}. Others are natural and FG. \\
+    2\he{}/\sp{} & 6\down Preference \\
+    2\nt{} & 6\down Minors \\
+    3m & 6\down Long suit \\
+\end{tabular}
+
+\subsection{Bridge-World Death Hand}
+Opener shows precisely 3 cards in one suit (usually partner's suit), 6\up{} in own suit. I\up{}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{3-card suit that 2\nt{} Rebid Shows}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        2\nt{} rebid & \multicolumn{4}{|c|}{Respond} \\\hline
+        Open & 1\di{} & 1\he{} & 1\sp{} & 1\nt{} \\\hline
+        1\cl{} & 3=\he{} & 3=\sp{} & 3=\di{} & - \\\hline
+        1\di{} & - & 3=\he{} & 3=\sp{} & 3=\cl{} \\\hline
+        1\he{} & - & - & 3=\sp{} & - \\\hline
+        1\sp{} & - & - & - & 3=\he{} \\\hline
+    \end{tabular}
+\end{table}
+
+Responder's rebid after BWDH 2\nt{} rebid:
+\begin{itemize}
+    \itemsep0em
+    \item Bidding the known suits at 3-level shows minimum. Bidding opener's 3-card suit promise 5\up{} cards.
+    \item Bidding the lower of the remaining suits is game-forcing in the higher known suit.
+    \item Bidding the higher of the remaining suits shows mild slam interest in the low known suit.
+    \item Bidding 3\nt{} is to play. Opener can pull with exceptional hand.
+    \item Bypassing 3\nt{} fits the lower known suit with serious slam interest. Cue bid.
+\end{itemize}
+
+\subsection{Reverse, Jump, Jump-shift, and Jump Support}
+When Gazzilli is available: 
+\begin{itemize}
+    \itemsep0em
+    \item Reverse shows hands with good suits and playing strength and F1R.
+    \item Jump rebids shows good suit and playing strength, invitational.
+    \item Jump-shift shows excellent hand with concentrated values in the suits, game-forcing.
+    \item Responder's jump support to 3-level are invitational, good support, and good source of tricks in the side suit.
+\end{itemize}
+
+\subsection{Type A Asking Bid}
+% In 2/1 game-forcing sequence, after opener (X) and responder (Y) has shown a suit. Asked by opener (AAB). \\\\
+% \begin{tabular}{|l|p{6.5cm}}
+%     3\cl{} & 4 cards in lower suit. 3\di{} is asking \\
+%     3\di{} & 6\up{}Y Any strength. \\
+%     3\he{} & 3-4 in opener's suit. 3-4 cards in higher suit \\
+% 	3\sp{} & 2\down{} in opener's suit. 4\up{} in higher suit. Extra \\
+% 	3\nt{} & Same as 3\sp{} but limited / 5Y2X33 limited \\
+% 	4\cl{}\up{} & Natural. Extra in shape and strength
+% \end{tabular}\\\\
+
+% After 3\cl{} and 3\di{} asking, responder answer the relay similar to the above scheme, expect for 3-4 cards in \cl{} instead of higher.
+(Obsolete)
+
+\subsection{Type B Asking Bid}
+After a game-forcing sequence and opener / responder has shown a two-suited hand, partner's 2\nt{} is the type B asking bid (BAB). \\\\
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{... 2\nt{} (BAB); ? } \\
+    3\cl{} & Extra. 5 in original suit / 4441, 3\di{} is asking \\
+    3\di{} & 5431 Min. 3\he{} is asking \\
+    3\he{}& 6\up{}-4\up{} any strength \\
+    3\sp{} & 5-5 any strength (6-5 if 5-5 is impossile) \\
+    3\nt & 5422 Limited
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{... 2\nt{} (BAB); 3\cl{} - 3\di{}; ? } \\
+	3\he{}& Lower 3\textsuperscript{rd} suit \\
+	3\sp{} & Higher 3\textsuperscript{rd} suit \\
+    3\nt & 5422 \\
+    4\cl{} & 5422 Much extra
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{... 2\nt{} (BAB); 3\di{} - 3\he{}; ? } \\
+	3\sp{} & Lower 3\textsuperscript{rd} suit (3-4 cards) \\
+	3\nt & Higher 3\textsuperscript{rd} suit (3-4 cards)
+\end{tabular}
+
+\section{General Conventions}
+
+\subsection{Fast Arrival}
+In a game-forcing sequence, fast arrival can be done when your partner's hand is limited or:
+\begin{itemize}
+	\itemsep0em
+	\item your hand is weaker than your partner's,
+	\item you have 1\down{} KC, and
+	\item you are near minimum in HCP
+\end{itemize}
+If fast arrival is not allowed, bid non-serious 3\nt{} to discourage slam instead.
+
+\subsection{Stopper-showing}
+A 3\textsuperscript{rd} level unbid-suit-bid is stopper-showing when
+\begin{itemize}
+	\itemsep0em
+	\item you are in a game-forcing sequence,
+	\item neither you nor partner has bid a natural \nt{}, and
+	\item there are 2 or more unbid suits
+\end{itemize}
+
+\subsection{Set Trump}
+The following are the priority of bids that are used for setting trumps (from high to low):
+\begin{enumerate}
+	\itemsep0em
+	\item 3M for M if M is a possible strain
+	\item 4m for m if m is a possible strain
+	\item A side suit for M if oM and that side suit are not possible strains (or 3oM is available for setting oM as trump)
+	\item 4\cl{} for \he{} and 4\di{} for \sp{} if both majors are possible strains
+\end{enumerate}
+If 3M can be used to set trump but a side suit is bid to set M as trump, this is a cue bid with much extra.
+
+\subsection{Splinters}
+Without specification, splinter bids promise 4\up{} trump, 2\up{} controls outside the splinter suit, and a void.
+
+\subsection{Italian Cue Bids}
+Cue bid in a suit promises 1\textsuperscript{st} or 2\textsuperscript{nd} round control. Bypassing a suit denies them unless that player has shown s/v in that suit. If a player has shown s/v in a suit, he cues it only when he has a bare Ace or void. \\
+When an opponent doubles our cue bid (overcalls), redouble (double) shows first round control, continue bidding shows second round control and pass denies first and second round control.
+
+\subsection{RKCB(1430)}
+RKCB is used rarely. 4\nt{} is RKCB / 5 of side suit is exclusion RKCB only when no cue-bidding has begun and trump is fit below 3\nt{}. \\
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{... RKCB - ?}\\
+     1\textsuperscript{st} step & 1 or 4 KC \\
+     2\textsuperscript{nd} step & 0 or 3 KC \\
+     3\textsuperscript{rd} step & 2 KC without TQ \\
+     4\textsuperscript{th} step & 2 KC with TQ
+\end{tabular}\\
+After the first 2 steps, a relay bid (skip the trump suit if necessary) ask for the TQ: return to 6 of a trump to deny TQ and other bids promise TQ and lowest King.
+After any steps response, 5\nt{} promise all key-cards and ask for the lowest King.
+
+\subsection{Fourth Suit}
+After 1-over-1 and non-reverse rebid by opener, fourth suit is invite up (except 1\he{}-1\sp{};2\di{}-3\cl{}, which is FG). 2-level rebid by opener are natural, minimum, and non-forcing; 3-level rebid by opener are game-forcing. \\
+
+When the above mentioned fourth suit is not bid and jump to 3-level instead, it shows a game-forcing and unidirectional hand.
+
+\subsection{Turbo}
+Turbo sequence is on if cue-bidding has started and the bidding has gone beyond game level. The method depends on the trump suit, but the ideas are similar. \\
+
+When \di{}/\he/\sp{} is set as trump:
+\begin{itemize}
+	\itemsep0em
+	\item 4\nt{} shows even number of KCs. Bypassing 4\nt{} shows odd number of KCs
+	\item 5\cl{} denies holding TQ
+	\item 5 of trump shows TQ but no lower cues
+	\item 5\nt{} informs partner that the partnership holds all keys cards but he does not have the TQ
+	\item whenever one finds that the partnership holds all KCs and the TQ, he should jump to level six (cue bid or return to trump)
+\end{itemize}
+
+When \cl{} is set as trump:
+\begin{itemize}
+	\itemsep0em
+	\item 4\di{} shows even number of KCs. Bypassing 4\di{} shows odd number of KCs
+	\item 4\nt{} denies holding \cl{}Q and bypassing promises \cl{}Q
+	\item 5\cl{} after 4\nt{} says that he doesn't have the \cl{}Q either
+	\item 5\nt{} informs partner that the partnership holds all KCs but he does not have the TQ
+\end{itemize}
+
+When \cl{} (or \di{}) are set as trump at 3\textsuperscript{rd} level, then bidding 4\cl{} (4\di{}) denies holding TQ and bypassing shows TQ. 4\nt{} would be \di{} cue bid (5\cl{} would be normal \cl{} cue bid).
+
+\section{1\cl{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - ? } \\
+    1\di{} & (3)6-FG 4\up\he{} \\
+    1\he{} & (3)6-FG 4\up\sp{} \\
+    1\sp{} & (3)6-FG no 4-card major \\
+    1\nt & FG\up{} Bal. or \cl{}. Include 5M332 \\
+    2\cl{}/\di{}/\he{} & FG\up{}. 5\up{}\di{}/\he{}/\sp{} \\
+    2\sp{} & FG\up{} Any 4441 \\
+    2\nt & Long \cl{}. Invite opposite 12-14 Bal \\
+    3\cl{} & Long \cl{}. Preempt \\
+\end{tabular}\\
+
+1\nt{} to 2\sp{} rebid are only made when opener have extra playing strength. With bare game-forcing hand, he should go through 1\di{} to 1\sp{} rebids.
+
+\subsection{Walsh Transfer}
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\di{}; ?} \\
+     1\he{} & Gazzilli. Either 11-15 5\up{}\cl{} 3\up{}\he{} unbal or 16\up{} many hands \\
+     1\sp{} & 4\up\sp{} unBal. F1R \\
+     1\nt & 12-14 Bal 3\down\he{}\\
+     2\cl{} & 11-15 5\up\cl{} 2\down{}\he{} unBal.\\
+     2\he{} & 12-14 4=\he{} Bal. Help suit game try \\
+     2\nt & 6+\c{} 3=\he{} I \\
+     3\cl{} & 6+\c{} 2-\he{} I \\ 
+\end{tabular}\\
+$\sim$ 1\cl{}-1\he{} \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\di{}; 1\sp{} - ?}\\
+	1\nt & 8-10 Bal.\\
+	2\cl{}/\he{}/\sp{} & NF \\
+    2\di{} & Fourth suit forcing. I\up \\
+    3\cl{}/\he{}/\sp{} & FG shapeful hands.
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\di{}; 1\nt{} - ?}\\
+	2\cl{} & I\up{}. 2\di{} shows max. and FG. Other rebids are min. Natural continuation\\
+    2\di{} & Transfer to 2\he{}. 5\up\he{}. Responder then pass, or bid new suit to FG, or 2\nt{} to invite. \\
+    2\he{}& 5=\he{} 4=\sp{} weak. P/C \\
+    2\nt & Puppet to 3\cl{}, weak in \cl{}/\di{}. P/C \\
+    3m & 5\up m 4=\he{} FG \\
+    3\he{}& 4-4 majors. COG
+\end{tabular}\\
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{$\sim$ 1\cl{} - 1\he{}; 1\nt{} - ? except}\\
+    2\di{} & 5=\sp{} 4=\he{}. weak \\
+    2\he{}& Transfer to 2\sp{}
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\di{}; 2\cl{} - ?}\\
+	Pass & To play \\
+	2\di{} & 5\up{}\he{} I\up{}. 2\he{} could be singleton and min \\
+	2\he{} & 6\up\he{} to play\\
+	2\sp{} & Stopper showing for \nt{}. I\up{} \\
+	2\nt{} & Bal. inv \\
+	3\cl{} & I
+\end{tabular}\\
+
+$\sim$ 1\cl{} - 1\he{}; 2\cl{} - ? \\
+\begin{tabular}{|l|p{6.5cm}}
+	2\di{} & 5\up\sp{} I\up{}. 2\he{} shows 4=\he{}. 2\sp{} could be singleton and min \\
+	2\he{} & 5=\sp{} 4=\he{} 6-9 \\
+	2\sp{} & 5\up\sp{} to play
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\sp{}; ?}\\
+     1\nt & 12-14 Bal (May be 4441) \\
+     2\cl{} & 12-15 5\up\cl{} unBal. \\
+     2\di{} & 14-16 4\up\cl{} 4\up\di{} NF \\
+     2\he{} & Gazzilli. 18-19 Bal., or 16-18 long \cl{} 2\down\di{}, or 19\up{} long \cl{} with s/v \\
+     2\sp{} & Gazzilli. 16-18 long \cl{} 3\up\di{}, or 19\up{} long \cl{} without s/v \\
+     2\nt & 6\up{}\cl{} 3=\di{} I\up{}. \\
+     3\cl{} & 6\up{}\cl{} 2\down{}\di{} \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\sp{}; 1\nt{} - ?}\\
+     2m & Stop bid \\
+     2M & Weak suit. Seeking the possibility of 3\nt \\
+     2\nt & Bal. I. \\
+     3m & 6\up{}m, I. \\
+     3M & Splinter, 5-4 in minors
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\sp{}; 2\cl{} - ?}\\
+     2\di{} & Stop bid \\
+     2M & Weak suit. Seeking the possibility of 3\nt \\
+     2\nt & Bal. I. \\
+     3m & Nat. I. \\
+     3M & Splinter, good \cl{} support.
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\sp{}; 2\di{} - ?}\\
+	 Pass & To play \\
+     2M & Weak suit. Seeking the possibility of 3\nt \\
+     2\nt & Bal. I. \\
+     3\cl{} & Stop bid \\
+     3M & Splinter, good support in either \cl{} or \di{}.
+\end{tabular}
+
+\subsection{Transfer Jump Game-Forcing}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\nt{}; ?}\\
+	2\cl{} & Bal. Any strength \\
+    2\di{}/\he{}/\sp{} & Unbal. Nat. 2\nt{} = BAB \\
+    2\nt{} & Long \cl{} extra \\
+    3\cl{} & Long \cl{} min \\
+    3X & set \cl{} trump. s/v in X \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\nt{}; 2\cl{} - ?}\\
+	2\di{}/\he{}/\sp{} & Unbal. Nat. 2\nt{} = BAB \\
+	2\nt{} & Bal. \\
+	3\cl{} & Long \cl{} min \\
+	3X & Long \cl{} extra. Short X \\
+	3\nt{} & Long \cl{} extra. Bal. Mild SI. \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 1\nt{}; 2\cl{} - 2\nt{}}\\
+	3\cl{} & Puppet Stayman. System on \\
+	3\di{} & Control Ask \\
+	3M & Stopper ask \\
+	3\nt{} & 12-14 Bal. To play \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 2\cl{}/\di{}/\he{}; ?}\\
+	Step & Catch all. 3-card fit or extra \\
+	2X & Nat. unbal. 2\nt{} = BAB \\
+	2\nt{} & 12-14 Bal. Could have 3-card support. Continuation similar to 1\cl{}-1\di{}/\he{}; 1\nt{} \\
+	3\cl{} & Long \cl{}. Min \\
+	Jump Step & 12-14 Bal. 4-card support \\
+	3\nt{} & Extra. 3-card in partner's suit. Source of tricks in \cl{} \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 2\cl{}/\di{}/\he{}; Step - ?}\\
+	2\nt{} & Extra \\
+	Others & Nat. Min \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 2\cl{}/\di{}/\he{}; Step - 2\nt{}; ?}\\
+	3\cl{} & 5\up{}\cl{} 3-card partner suit. unBal. Min \\
+	3\di{} & 5\up{}\cl{} 4-card partner suit. unBal. Min \\
+	3M/4m & Natural. Extra \\
+	3\nt{} & Extra. Bal / semi-Bal \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 2\sp{}; ?}\\
+	2\nt{} & Bal. Ask short \\
+	3X & 4\up{}X. Responder bids \nt{} to show singleton. Other bids fit X and cue \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} - 2\nt{}; ?}\\
+	Pass / 3\cl{} & To play \\
+	3X & Either stopper showing, or advance cuebid for \cl{} slam. \\
+	3\nt{} & To play \\
+\end{tabular}
+
+% 1\cl{} - 2\nt{}; - 3\cl{} - 3\di{}/\he/\sp{}; ? \\
+% 1\cl{} - 3\di{}/\he/\sp{}; ? \\
+% Opener can
+% \begin{itemize}
+% 	\itemsep0em
+% 	\item bid a game to play
+%     \item bid 4\cl{} to set \cl{} as trump
+% 	\item bid partner's suit below game to set the suit as trump
+%     \item bid 4\nt{} to show misfit, invite to 6\nt{}
+% \end{itemize}
+
+\subsection{Passed Hand Bidding of 1\cl{}}
+
+Same as non passed hand except P - 1\cl{}; 1\nt{}/2X are natural invites. 
+
+\subsection{Contested auction of 1\cl{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} (Dbl) ?}\\
+	Rdbl & 11\up \\
+	1\di{} & 4-5\he{} 7\up \\
+	1\he{}& 4-5\sp{} 7\up \\
+	1\sp{} & 5\up\cl{} 7-10 \\
+	1\nt & 5\up\di{} 7-10 \\
+	2/3X & 6+ single suit 6-9 \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} (P) 1\di{} (Dbl); ?}\\
+	Pass & 12-14 Bal. No \di{} stop \\
+	1\nt{} & 12-14 Bal. \di{} stop \\
+	Others & Same as uncontested
+\end{tabular}\\
+$\sim$ 1\cl{} (Dbl) 1\di{} (Dbl); ? \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} (P) 1\di{} (Dbl); P (P) ?}\\
+	1\he{}& Worst hand \\
+	Rdbl & Ask partner to bid 1\nt{}. Back to system \\
+	Others & Nat
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} (1\di{}) ?}\\
+	Dbl & 7\up{} None of below \\
+	1M & 5\up{}M 7\up \\
+	1\nt & Nat 7-10 good stop at \di{} \\
+	2\cl{} & Nat FG \\
+	2\di{} & 4\up{}4\up{} majors 5\up{}. Opener bids 2M to show 3\up{} cards and min \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} (1\he{}) ?}\\
+	Dbl & 4-5\sp{} 7\up{} \\
+	1\sp{} & 3\down\sp{} 7\up \\
+	1\nt & Nat 7-10 good stop at \he{} \\
+	2m & Nat FG \\
+	2\he{}& Transfer. 6\up\sp{} 7\up
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} (1\sp{}) ?}\\
+	Dbl & 4-5\he{} 7\up{} \\
+	1\nt & Nat 7-10 good stop at \sp{} \\
+	2m/\he{}& Nat F1R \\
+	2\sp{} & Bal. I\up{}, does not promise stopper \\
+	2\nt & Bal. I. with good stopper
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\cl{} (1\nt{}) ?}\\
+\end{tabular}\\
+Same defence as if they have opened a weak 1\nt{}, except for point compensations.\\
+
+1\cl{} (P) 1\nt{}/2X (Dbl); ?
+System off. Pass-(re)double inversion applies. Pass either shows length or a good stopper for 3\nt{}
+
+\section{1\di{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - ?}\\
+	1M & (3)6-FG 4\up{}M \\
+    1\nt & 6-11 no 4-card major \\
+    2\cl{} & FG\up{}. 5\up\cl{} / Bal  / \di{} raise \\
+    2\di{} & (3)6-8 5\up{}\sp{} 4\up{}\he{} NF \\
+    2M & FG\up{} 5\up{}M. Include 5M332 \\
+    2\nt & Nat I \\
+    3\cl{} & Nat I \\
+    3\di{} & Preemptive 4\up\di{} \\
+\end{tabular}
+
+\subsection{1-level Responses}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 1\he{}; ?}\\
+	1\sp{} & Nat 4=\sp{} F1R \\
+    1\nt & Gazzilli. 11-15 5\up{}\di{} 3\up{}\he{} or 16\up{}\\
+    2\cl{} & 11-15 5\up\di{} 4\up\cl{} NF. Then 2\nt{} is inv. with \sp{} stopper and 2\sp{} is I\up{} \\
+    2\di{} & 11-15 5\up\di{} NF. Responder bids 2M to invite, and ask for stopper for 3\nt \\
+    2\he{}& 11-15 \he{} raise \\
+    2\nt &  6\up{}\di{} 3\up{}\he{} I\up{}\\
+\end{tabular}\\
+$\sim$ 1\di{}-1\sp{}; 1\di{}-1\sp{};2\cl{} may be 1\sp{}444\\
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\di{} - 1\he{}; 1\nt{} - ?}\\
+% 	2\cl{} & +ve 6-9 many shapes \\
+%     2\di{} & 5\down{} NF. \\
+%     2\he{}& 5\down{} NF \\
+%     2\sp{} & +ve 6-9 5\up\he{} 4\up\sp{} \\
+%     2\nt & +ve 6-9 3=4=3=3 \\
+%     3\cl{} & 5\down{} 4=\he{} 6c\cl{}
+% \end{tabular}\\
+% Natural continuation. FG after +ve responses. \\
+% $\sim$ 1\di{}-1\sp{}; 1\nt{}. Notice 2\he{} shows +ve 6-9 5\up\sp{} 4\up\he{}. \\
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\di{} - 1\he{}; 2\nt{} - 3\cl{}; ?}\\
+% 	3\di{} & Long solid \di{} \\
+%     3\he{}& \he{} raise \\
+%     3\sp{} & 5\up{}-5\up{} in minors
+% \end{tabular}\\
+% $\sim$ 1\di{} - 1\sp{}; 2\nt{} - 3\cl{} \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 1\nt{}; ?}\\
+	2\cl{} & Gazzilli. 11-15 \di{}+\cl{}, or any 16\up \\
+    2\di{} & 11-15 \up\di{} NF \\
+    2\nt{} & 6\up{}\di{} 3\up{}\cl{} I\up{} \\
+\end{tabular}
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\di{} - 1\nt{}; 2\cl{} - ?}\\
+% 	2\di{} & 8\down {} NF \\
+%     2\he{}& +ve 6-9 any shape except 4\up\di{}. \\
+%     3\cl{} & 5\down{} 6\up\cl{} \\
+%     3\di{} & +ve 6-9 4\up\di{}
+% \end{tabular}\\\\
+
+
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\di{} - 1\nt{}; 2\cl{} - 2\he{}; ?}\\
+% 	2\sp{} & 18\up{} \di{} + \cl{} stronger than 1\di{}-1\nt{};3\cl{} \\
+%     2\nt & 16-17 5\up\di{} 4\up\cl{}. Responder rebids 3m is NF; 3M seeks stopper for 3\nt{}. \\
+%     3\cl{} & 14-15 5\up\di{} 4\up\cl{}. P/C. \\
+%     3\di{} & 18\up{} long \di{}. Responder rebids 3M to seek for stopper for 3\nt \\
+%     3M & 18\up{} Nat. 5=\di{} 4=M. Willing to play in 4-3 major fit game. \\
+%     3\nt & To play
+% \end{tabular}\\\\
+
+
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\di{} - 1\nt{}; 2\nt{} - 3\cl{}; ?}\\
+% 	3\di{} & Long solid \di{} \\
+%     3\he{}& 5\up{}5\up{} in minors
+% \end{tabular}\\\\
+
+\subsection{2\cl{} 3-way Game-Forcing}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 2\cl{}; ?}\\
+	2\di{} & \di{}+\cl{} any strength. Or 11-15 \di{} single suit / (41)44 \\
+    2M & 4\up{}M any strength (2\he{} could be =4441) \\
+    2\nt{} & 16\up{} 6\up\di{} \cl{} s/v \\
+    3\cl{} & 16\up{} 6\up\di{} 2=\cl{}\\
+    3\di{} & 16\up{} 6\up\di{} 3=\cl{}\\
+    3\he{} & 16\up{} =4144 \\
+    3\sp{} & 16\up{} =1444 \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 2\cl{}; 2\di{} - ?}\\
+\end{tabular}\\
+2\he{} is an asking bid and others are natural: \\
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 2\cl{}; 2\di{} - 2\he{}; ?}\\
+	2\sp{} & \di{}+\cl{}. 2\nt{} = BAB \\
+    2\nt{} & 11-15 6\up\di{} \cl{} s/v \\
+    3\cl{} & 11-15 6\up\di{} 2=\cl{}\\
+    3\di{} & 11-15 6\up\di{} 3=\cl{}\\
+    3\he{} & 11-15 =4144 \\
+    3\sp{} & 11-15 =1444 \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 2\cl{}; 2M - ? }\\
+\end{tabular}\\
+2\nt{} is BAB (support or Bal.) and others are natural. \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 2\di{}; ?}\\
+	Pass / 2M & To play \\
+    2\nt/3M & I. \\
+    3\cl{} & NF. \\
+    3\di{} & F1R \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 2M; ?}\\
+\end{tabular}\\
+Natural continuation except 2\nt{} would be AAB. \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 2\nt{}; ?}\\
+	Pass & To play \\
+	3\cl{}/\di{} & NF \\
+	3M & Stopper ask \\
+	3\nt{} & to play \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} - 3\di{}; ?}\\
+\end{tabular}\\
+3M is stopper-asking. 
+
+\subsection{Passed Hand Bidding of 1\di{}}
+
+Same as non passed hand except P - 1\di{}; 2\cl{} is invite without 4=M. 2M is invitational, good 6-card suit. (All rebids are FG except 3\di{})
+
+\subsection{Contested Auction of 1\di{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} (Dbl) ?}\\
+	Rdbl & 11\up \\
+	1M & 4-5cM 7-10 \\
+	1\nt & 5\up\cl{} 7-10 \\
+	2\cl{} & 4-4 majors 7\up{}. 2M promise 4 cards.\\
+	2\di{} & Raise 7-10 \\
+	2M & 6\up{}M 10\down
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} (1\he{}) ?}\\
+	Dbl & 4-5=\sp{} 7\up \\
+	1\sp{} & 3\down\sp{}, 7\up\\
+	1\nt & Bal, \he{} stopped. 7-10 \\
+	2\cl{} & Nat. FG \\
+	2\di{} & Raise \\
+	2\he{}& 6\up\sp{} 7\up
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} (1\sp{}) ?}\\
+	Dbl & 4-5=\he{} 7\up \\
+	1\nt & Bal, \sp{} stopped. 7-10 \\
+	2\cl{} & NF \\
+	2\di{} & Raise \\
+	2\he{} & NF \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} (1\nt{}) ?}\\
+	Dbl & 11\up \\
+	2\cl{} & 4-4\up{} majors 7\up{}. 2M promise 4 cards. \\
+	2\di{} & Raise 10\down{} \\
+	2M & 6\up{}M 10\down{} \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\di{} (1\nt{}) P (P); ?}\\
+	Dbl & 18\up{} \\
+	2\cl{} & Promise extra (either length of strength) \\
+	2\di{} & 6\up{}\di{}. Promise extra \\
+	2M & Shapeful but NF
+\end{tabular}
+
+\section{1\he/\sp{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+     1\he{}-1\sp{} & At most Game value. 4\up\sp{} \\
+     1M-1\nt{}& At most invite. (3\down\sp{} after 1\he{}). NF opposite 13-14 bal. Include 0-5 3=M \\
+     1M-2\cl{} & FG\up{}: Bal or 5\up\cl{} or 3\up{}M \\
+     1M-2\di{} & FG\up{}: 5\up\di{} \\
+     1M-2M & 6-8. Help suit game try \\
+     1M-2oM & FG\up{} 5\up{}oM FG \\
+     1M-2\nt & Limit raises: 9-11(FG=) 3=M or 5-11(FG=) 4\up{}M \\
+     1M-3m & Natural invite without fit \\
+     1M-3M & preemptive \\
+\end{tabular}
+
+\subsection{1\he{} - 1\sp{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\he{} - 1\sp{}; ?}\\
+     1\nt & Gazzilli. 13-17 5\up{}\he{} 3=\sp{} or 18\up\\
+     2\cl{} & 13-17 4\up\cl{} / =2533 \\
+     2\di{} & 13-17 4\up\di{} \\
+     2\he{} & 13-17 6\up\he{}\\
+     2\sp{} & 13-17 4\up\sp{} \\
+     2\nt{} & 6\up{}\he{} 3=\sp{} I\up{} \\
+     3\he{} & 6\up{}\he{} 2\down{}\sp{} I
+\end{tabular}
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\he{} - 1\sp{}; 1\nt{} - ?}\\
+%      2\cl{} & +ve 6-9, FG opposite 18\up \\
+%      2X & 5\down{} NF \\
+%      2\nt & 5\down{} long \cl{}
+% \end{tabular}\\\\
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\he{} - 1\sp{}; 1\nt{} - 2\cl{}; ?}\\
+%      2\di{} & 14-17 4\up\di{} (or 2=5=3=3) NF \\
+%      2\he{}& 18\up{} 6\up\he{}. Can have side suit \\
+%      2\sp{} & 18\up{} 5=\he{} 3=\sp{}. 2\nt{} ask for shortage \\
+%      2\nt{} & 18\up{} 6c\he{} 3=\sp{}. Nat. Cont.\\
+%      3m & 18\up{} 5=\he{} 4\up{}m \\
+%      3\he{}& Set \he{} as trump \\
+%      3\sp{} & 18\up{} 4=\sp{} Set trump \\
+%      3\nt{} & 18-20 Bal. \\
+%      4\cl{} & 23\up{} Bal. 
+% \end{tabular}\\\\
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\he{} - 1\sp{}; 2\di{} - ?}\\
+%      2M & Stop bid \\
+%      2\nt & Bal. I \\
+%      3m & Help suit game try in \sp{} \\
+%      3\he{}& 3=\he{}, invite to 4\he{}\\
+%      3\sp{} & 6\up{}\sp{} Blocking \\
+%      3\nt{}/4M & To play
+% \end{tabular}\\\\
+
+\subsection{``Semi-Forcing'' 1\nt{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\he{} - 1\nt{}; ?}\\
+     Pass & To play \\
+     2\cl{} & Gazzilli 13-17 4\up\cl{} or 18\up \\
+     2\di{} & 13-17 Nat. NF \\
+     2\he{}& 13-17 6\up\he{} NF \\
+     2\nt & Undefined \\
+\end{tabular}\\
+$\sim$ 1\sp{} - 1\nt{}, except 1\sp{} - 1\nt{}; 2\nt{} shows 6\up{}\sp{} 3=\he{} I\up{}.
+
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1M - 1\nt{}; 2\cl{} - ?}\\
+%      2\di{} & +ve 6-9. Opener rebids major to show 14-17 4\up\cl{} or 2\nt{} to show 16-17. Others are natural and FG (except 2\he{} shows 18\up{} 3\up\he{}) \\
+%      2M & 5\down{} NF \\
+%      2\nt{} & Minors, 5\down{} NF \\
+%      2oM/3m & Nat. NF
+% \end{tabular}\\\\
+
+
+
+% \begin{tabular}{|l|p{6.5cm}}
+% 	\multicolumn{2}{l}{1\sp{} - 1\nt{}; 2\cl{} - 2\di{}; 2\he{} - ?}\\
+%      2\sp{} & 3\down\he{}. Asking bid. Opener shows side suits or extra length in majors \\
+%      2\nt & 4=\he{}. Opener rebids 3\he{} to fit \he{}. Other rebids denies 4=\he{}\\
+%      3m & 5\up{}m 3\down\he{}\\
+%      3\he{}& 5\up\he{}. Fit \he{}
+% \end{tabular}\\\\
+
+\subsection{Limit Raises 2\nt{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\he{}/\sp{} - 2\nt{}; ?}\\
+     3\cl{} & 16\up{} Asking bid \\
+     3\di{} & Not the worse hand \\
+     3M & Worse hand \\
+     3oM / 4m & splinter \\
+     4M & to play \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\he{} - 2\nt{}; 3\cl{} - ?}\\
+     3\di{} & 8\up{} 3=\he{} \\
+     3\he{} & 5-7 4=\he{} \\
+     3\nt{} & 8\up{} 4=\he{} max. no s/v \\
+     NJ suit & 8\up{} 4=\he{}. s/v
+\end{tabular}\\
+$\sim$ 1\sp{} - 2\nt{}; 3\cl{}
+
+\subsection{2\cl{} 3-way Game-Forcing}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\cl{}; ?}\\
+	2\di{} & 4\up\di{} or Bal or weak 6+M \\
+    2\he{} & 4\up{}oM. Any strength \\
+    2\sp{} & 4\up\cl{}. Any strength \\
+    2\nt{} & Extra. 6\up{}M. \cl{} s/v \\
+    3\cl{} & Extra 6\up{} 2=\cl{} \\
+    3\di{} & Extra 6\up{}M. 3=\cl{} \\
+	3M & Set trump. Demand cue bid \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\cl{}; 2\di{} - ?}\\
+	2\he{} & Asking bid. \\
+	2\sp{} & Fit M. \\
+	2\nt{} & Min Bal \\
+    3X & Was \cl{}, natural rebid \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\cl{}; 2\di{} - 2\he{}; ?}\\
+	2\sp{} & M + \di{}. 2\nt{} = BAB \\
+	2\nt{} & Bal \\
+	3\cl{} & Min. 6+M 2=\cl{} \\
+	3\di{} & Min. 6+M 3=\cl{} \\
+    3M & Min. 6+M \cl{} s/v \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\cl{}; 2\he{}; ?}\\
+	2\sp{} & Fit M. \\
+	2\nt{} & BAB \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\cl{}; 2\nt{} - ?}\\
+	3\cl{} & 6\up{}\cl{} \\
+	3\di{}/oM & 5\up{}\cl{} 4=\di{}/oM ST \\
+	3M & Set M as trump \\
+	3\nt{} & Min Bal \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\cl{}; 2\nt{} - 3\cl{}; ?}\\
+	3\di{}/oM & 2\up{}\cl{}. s/v in \di{}/oM \\
+	3M & s/v in \cl{}. Good suit \\
+	3\nt{} & Suggest to play \\
+	4\cl{} & Good \cl{} support ST \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\cl{}; 3\cl{} - ?}\\
+	3\di{} & set \cl{} as trump \\
+	3oM & Bal with extra \\
+	3M & Set trump \\
+	3\nt{} & Min Bal \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\cl{}; 3\di{} - ?}\\
+	3oM & Bal with extra \\
+	3M & Set trump \\
+	3\nt{} & Min Bal \\
+	4\cl{} & Set \cl{} as trump \\
+\end{tabular}
+
+\subsection{2-over-1 Game Forcing / Jump Shift}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2\di{}; ?}\\
+	2M & Catch all. Nat. Cont. \\
+    2X & Natural. Bypassing 2M shows extra \\
+    2\nt{} & 13-14 Bal. 3=\di{} \\
+    3\cl{} & 4\up\cl{} Extra \\
+    3\di{} & Fit \di{}, unless responder bid 3M, which fits M and good \di{} suit \\
+    3M & Set trump \\
+    3oM/4\cl{} & Good fit in \di{}, s/v
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M - 2oM; ?}\\
+\end{tabular}\\
+Natural continuation. 2\nt{} is AAB.
+
+\subsection{Passed Hand Bidding of 1\he{}/\sp}
+1\sp{} and 1\nt{} responses are unchanged and system on. \\
+2\cl{} and 2\di{} responses are two-way reversed Drury. 3 and 4\up{} cards support respectively. \\
+Single jump shifts are fit jumps. 6-9 HCP with 4\up{} support and a good 5\up{} side suit. \\
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{P - 1M; 2\cl{}; ?}\\
+	2\di{} & Full but minimal opener. Responder can bid 2M to sign-off continue with help suit game try \\
+	2M & Not a full opener. To play \\
+	NJ suit & Help suit game try \\
+	3M & Set trump. Slam try \\
+	Jump suit & Splinter \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{P - 1M; 2\di{}; ?}\\
+	2M & Minimum. Responder can pass to sign-off, continue with help suit game try, or jump to 4M with extra trumps \\
+	NJ suit & Help suit game try \\
+	3M & Set trump. Slam try \\
+	Jump suit & Splinter \\
+\end{tabular}
+
+\subsection{Contested Auction of 1\he/\sp{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M (Dbl) ?} \\
+	Rdbl & 9\up \\
+	1\sp{} & 5\up{}\sp{}. Competitive. NF. System off \\
+	1\nt{} & 6-9 Nat (Can hide 4-card \sp{}). Sys on\\
+	2M & Raise \\
+	2X & Competitive. NF \\
+	2\nt & Limit raise. System on \\
+	3M & Preemptive \\
+	3X & FG Nat \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M (1\nt{}) ?} \\
+	Dbl & 11\up \\
+	2m & NF \\
+	2M & Raise \\
+	2oM & NF \\
+	2\nt & Good raise. Offensive hand. System on \\
+	3M & Preemptive \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M (1\nt{}) P (P); ?} \\
+	Dbl & Take out in a minor or any 18\up{} \\
+	2 lower & Natural. Promise extra \\
+	2M & Natural. Promise extra \\
+	2\sp{} & (over 1\he{}) Shapeful. Constructive but NF.
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M (1\nt{}) P (P); Dbl (P) ?} \\
+	2\cl{} & P/C \\
+	2\di{} & 4\up{}oM, max \\
+	2M & To play
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1M (2 lower) ?}\\
+	Dbl & Negative \\
+	NJ suit & Constructive but NF \\
+	Raise & Blocking \\
+	2\nt{} & Bal. I. with stopper \\
+	Cue & Good raise. 11\up{} \\
+	J raise & Pre-emptive \\
+	3X & 5\up{}X FG
+\end{tabular}
+
+\section{1\nt{}}
+
+Strong (15-17) NT. Tend to upgrade some 5M332. The response method we use is called Heeman.
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - ?}\\
+     2\cl{} & Puppet to 2\di{}, many hands \\
+     2\di{} & Trans. to 2\he. 4\up\he{}\\
+     2\he{}& Trans. to 2\sp{}. 4\up\sp{}\\
+     2\sp{} & Size ask. Weak with \cl{}, or Bal I/ST, or ST with 5-4\up{} in minors \\
+     2\nt & 6\up{} suit, I or ST, forcing \\
+     3\cl{} & Puppet to 3\di{}. Preemptive with \di{} or 4441 ST \\
+     3\di{} & 6\up\he{} or 6\up\sp{}. I \\
+     3M & s/v. Approx (31)(45). Strength for 3\nt{}\up{} \\
+     3\nt & To play \\
+     4m & SA Texas transfer. May have slam interest \\
+     4M & To play
+\end{tabular}
+
+\subsection{2\cl{} Puppet to 2\di{}}
+
+\subsubsection{Main Sequence}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\cl{}; 2\di{} - ?}\\
+     Pass & 5\up\di{} to play \\
+     2\he{}& Trans. to 2\sp{}. 5\up\sp{}, I\up \\
+     2\sp{} & ST in \cl{}/\di{} or weak/I in \cl{}+\di{} \\
+     2\nt & 5=\he{} no shortness I. \\
+     3\cl{} & 5=\he{} 4\up\cl{}, I. \\
+     3\di{} & 5=\he{} 4\up\di{}, I. \\
+     3\he{}& 5=\he{} 4\up\cl{}, ST. \\
+     3\sp{} & 5=\he{} 4\up\di{}, ST. \\
+     3\nt & 5=\he{} COG \\
+     4m & s/v, good long \he{} ST.\\
+     4\he{}& No s/v, good long \he{} ST.\\
+     4\sp{} & RKCB in \he{}\\
+     4\nt & 5\he{}332 quantitative
+\end{tabular}\\
+$\sim$ 1\nt{} - 2\cl{}; 2\di{} - 2\he{}; 2\sp{} except that this sequence shows 5\up\sp{} instead of 5\up\he{}.
+
+\subsubsection{1\nt{} - 2\cl{}; 2\di{} - 2\sp{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\cl{}; 2\di{} - 2\sp{}; ?}\\
+     2\nt & Min. \\
+     3\cl{} & Max. \cl{} is better \\
+     3\di{} & Max. \di{} is better
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\cl{}; 2\di{} - 2\sp{}; any - ?}\\
+     Pass, 3m/\nt & To play \\
+     3\he{}& 5-6c\cl{} 4-5=\di{} ST \\
+     3\sp{} & 5-6c\di{} 4-5=\cl{} ST
+\end{tabular}\\\\
+
+\subsection{2\di{}/2\he{} Transfer}
+
+\subsubsection{Main Sequence}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\di{}; 2\he{} - ?}\\
+     Pass & 5\up\he{} NF. \\
+     2\sp{} & 4\up\he{} 4\up\sp{}, I\up \\
+     2\nt & 4=\he{} Bal I. \\
+     3\cl{} & 4=\he{} 5\up\cl{} I. \\
+     3\di{} & 4=\he{} 5\up\di{} I. \\
+     3\he{}& 4=\he{} 5\up\cl{} ST. \\
+     3\sp{} & 4=\he{} 5\up\di{} ST. \\
+     3\nt & 4=\he{} COG. \\
+     4m & s/v, long \he{} \\
+     4\he{}& Long \he{} \\
+     4\nt & 4\he{}333, quantitative
+\end{tabular}\\
+$\sim$ 1\nt{} - 2\he{}; 2\sp{} - ? (4\he{} is s/v.) \\
+After 1\nt{} - 2\di{}/\he{}, opener can super-accept with max and 4 cards \he/\sp{} by bidding 2\sp{}/\nt{}. \\
+
+\begin{samepage}
+After responder has shown 5-4 in \he/\sp{}+\cl{}/\di{}, opener can bid:
+\begin{itemize}
+	\itemsep0em
+    \item 3\nt{} or 4\he/\sp{} to discourage slam.
+    \item 4 of responder's minor to encourage slam in the minor.
+    \item 3\sp{} over 3\he{}, or 4\cl{} over 3\sp{} to encourage slam in responder's major
+\end{itemize}
+\end{samepage}
+
+\subsubsection{Both Majors}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\di{}; 2\he{} - 2\sp{}; ?}\\
+    2\nt & Min. no 4=M \\
+    3\cl{} & Max. no 4=M \\
+    3\di{} & Max. 4\up{}\he{} set trump \\
+    3\he{} & Min. 4\up\he{} \\
+    3\sp{} & Min. 4\up\sp{} \\
+    3\nt{} & Max. 4\up\sp{} set trump \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\di{}; 2\he{} - 2\sp{}; 2\nt{}/3\cl{}}\\
+    Pass & (After 2\nt{}) To play \\
+	3\di{} & Trans. to 3\he{}. 5\up\he{} 4\up\sp{}. \\
+    3\he{} & Trans. to 3\sp{}. 5\up\sp{} 4=\he{}. \\
+    3\sp{} & 4441\cl{}, MST. \\
+    3\nt{} & 4-4 majors to play \\
+    4\cl{} & 6\up{}\he{} 4=\sp{} ST. \\
+    4\di{} & 6\up{}\sp{} 4=\he{} ST. \\
+    4\he{} & 6\up{}\he{} 4=\sp{} to play. \\
+    4\sp{} & 6\up{}\sp{} 4=\he{} to play.
+\end{tabular}\\
+After ...; 2\nt{} - 3\di{}/\he{}, opener must bypass transfer to accept game invitation. \\
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\di{}; 2\he{} - 2\sp{}; 2\nt{}/3\cl{} - 3\di{}; 3\he{} - ?}\\
+    Pass & To play \\
+    3\sp{} & 5-5 majors forcing \\
+    3\nt & 5=\he{} 4=\sp{}. COG \\
+    4m & Set \he{} as trump. Cue bid \\
+    4\he{}& 6c\he{} 4=\sp{}. ST
+\end{tabular}\\
+$\sim$ 1\nt{} - 2\di{}; 2\he{} - 2\sp{}; 2\nt{}/3\cl{} - 3\he{}; 3\sp{} - ? 
+
+\subsection{2\sp{} Size Ask}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\sp{}; ?}\\
+	2\nt & Min \\
+    3\cl{} & Max
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\sp{}; 2\nt{}/3\cl{} - ?}\\
+	3\cl{}/Pass & Weak with \cl{} \\
+    3\di{} & Bal. ST \\
+    3\he{} & ST. 5-4\up{} minors, better \cl{} \\
+    3\sp{} & ST. 5-4\up{} minors, better \di{} \\
+    3\nt & To play
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\sp{}; 2\nt{}/3\cl{} - 3\di{} - ?}\\
+	3\he{}& 3\down{} controls. Responder bid 3\sp{} to ask. 3\nt{} shows 2\down{} controls and 4\cl{}\up{} shows lowest suit with 5\up{} cards. \\
+    3\sp{} & 4 controls \\
+    3\nt & 5 controls \\
+    4X & 6 controls with X as the lowest 4\up{} card suit
+\end{tabular}\\
+
+\begin{samepage}
+Then, the development follows the following rules:
+\begin{itemize}
+	\itemsep0em
+    \item Any time responder rebids \nt{}, opener must pass.
+    \item Opener must not raise the level unless fitting partner.
+    \item Both players bids the suit up the line, rebidding a suit shows 5.
+    \item Fitting partner by a raise.
+\end{itemize}
+\end{samepage}
+
+\subsection{Higher Responses}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\nt{}; ?}\\
+	3m & Weak doubleton (no A/K/Q) in that minor \\
+    3\nt & No weak doubleton in a minor \\
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 2\nt{}; 3 any - ?}\\
+	Pass & No good fit, to play \\
+    Game & To play \\
+    4m & Forcing if it is a `raise', else invitational \\
+    4\nt & Natural, ST
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 3\cl{}; 3\di{} - ?}\\
+	Pass & Preempt in \di{} \\
+    3\he{}& 41\he{}44 ST \\
+    3\sp{} & 1\sp{}444 ST \\
+    3\nt & 441\di{}4 ST \\
+    4\cl{} & 4441\cl{} serious ST
+\end{tabular}\\
+After responder showing 4441, opener can bid NT to show no fit. With a fit in a suit, opener bids that suit at the lowest level. Then responder makes the cheapest bid to ask for number of controls opener has. First step shows 4\down{}, each succeeding step shows one additional control. \\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 3\di{}; ?}\\
+	3\he{}& Rejecting game opposite \he{}\\
+    3\sp{} & Accepting game opposite \he{}, rejecting game opposite \sp{} \\
+    3\nt & Accepting game in both major. Responder then bid 4M, or make a `SA texas transfer'. \\
+    4\cl{} & Accepting game in both major. Responder should make a transfer bid. \\
+    4\di{} & Accepting game in both major. Responder should bid his major.
+\end{tabular}\\
+After 1\nt{} - 3\di{}; 3\he{}, If responder has \sp{}, he should rebid 3\sp{} and let the opener place the contract. \\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} - 3M; ?}\\
+	3\nt{} & To play \\
+    4m & 4-5 cards, NF \\
+    4M & Ask responder to bid his longer minor \\
+    4oM/5m & To play
+\end{tabular}\\\\
+
+Four-way long major slam try: For example, ST in \he{}:
+\begin{itemize}
+	\itemsep0em
+	\item 1\nt{} - 4\cl{}; 4\di{}/\he{} - Pull: Good \he{}, good control
+	\item 1\nt{} - 2\cl{}; 2\di{} - 4X: Good \he{}, moderate control
+	\item 1\nt{} - 2\di{}; 2\he{} - 4X: Semi-solid \he{}, good control
+	\item 1\nt{} - 4\cl{}: Semi-solid \he{}, moderate control, or worse
+\end{itemize}
+Good trump: 6\up{} cards with AKQ or 4 out of 5 honours. \\
+Good control: 3\up{} A-K control in side suits. 
+
+\subsection{Contested Auction of 1\nt{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} (Dbl) ?}\\
+	Pass & Weak with no 5\up{} suit \\
+	Rdbl & Weak with long \cl{} \\
+	2\cl{}\up & System on
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} (Dbl) P (P); ?}\\
+	Pass & Any 4333 \\
+	Rdbl & 4-4 any suits (partner bid 2\cl{} unless \cl{} is the worst suit) \\
+	2X & 5cX
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} (P) P (Dbl); ?}\\
+	Pass & No 5 card suit. Partner can Rdbl to show 4-4, or bid a suit to show 5, or pass to play. \\
+	2X & 5cX.
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} (2\cl{}) ?}\\
+	Dbl & Same continuation as 1\nt{} - 2\cl{} \\
+	Others & System on
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{1\nt{} (2\di{}\up{}) ?}\\
+\end{tabular}\\
+Lebensohl applies (slow show), doubles are takeout at 2-level (real suit) or suit-showing (artificial), optional at 3-level \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{If opponent doubles responder's puppet bid}\\
+	Pass & Stopper (responder double to retransfer) \\
+	Rdbl & Length \\
+	Complete & No stopper
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{If opponent doubles responder's transfer bid}\\
+	Pass & No fit (responder double to retransfer) \\
+	Rdbl & Length \\
+	Complete & Fit
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{If opponent doubles responder's asking bid}\\
+	Pass & Stopper (responder double to re-ask) \\
+	Rdbl & Suggesting contract \\
+	Answer & No stopper
+\end{tabular}
+
+\section{2\cl{}: Majors or Strong}
+
+\subsection{Responses to 2\cl{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\cl{} - ?}\\
+	2\di{} & Not pref in \he{}. No 4-card major, or something tactical \\
+	2\he{} & 10\down{}. Pref in \he{}. May be 4-4 in majors \\
+	2\sp{} & 10\down{}. 4=\sp{}. Pref in \sp{} \\
+	2\nt{} & FG. Asking bid \\
+	3\cl{} & Inv in a major \\
+	3\di{} & Bal I \\
+	3M & Blocking. No values in minors \\
+	3\nt{} & To play opposite majors \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\cl{} - 2\di{}; ?}\\
+	2\he{} & Majors. \he{} is better. Responder P/C, or improvise \\
+	2\sp{} & \sp{} is better \\
+	2\nt{} & 22-24 Bal /semi bal sys on \\
+	3m & Nat \\
+	3M & minors, short M \\
+	3\nt{} & 25-27 Bal \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\cl{} - 2\he{}; ?}\\
+	Pass & Majors \\
+	2\sp{} & 4=\sp{} FG\\
+	2\nt{} & 22-24 Bal / semibal. 3\cl{} = checkback \\
+	3m & Nat \\
+	3\he{} & Strong. Fit \he{} \\
+	3\nt{} & 25-27 Bal \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\cl{} - 2\sp{}; ?}\\
+	Pass & Majors \\
+	2\nt{} & 22-24 Bal / semibal. 3\cl{} = checkback \\
+	3m & Nat \\
+	3\sp{} & Strong. Fit \sp{} \\
+	3\nt{} & 25-27 Bal \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\cl{} - 2\nt{}; ?}\\
+	3\cl{} & 5=\he{} 4=\sp{}. Puppet to 3\di{} \\
+	3\di{} & 5=\he{} 5=\sp{} \\
+	3\he{} & 5=\sp{} 4=\he{}, \di{} s/v \\
+	3\sp{} & 5=\sp{} 4=\he{}, \cl{} s/v \\
+	3\nt{} & =5422 \\
+	4\cl{} & 6\up\sp{} 4=\he{} \\
+	4\di{} & 6\up\sp{} 5\up\he{} \\
+\end{tabular}\\
+After 2\cl{}-2\nt{};3\cl{}-3\di{}, opener's response is analogous to 2\cl{}-2\nt{};3\he{}\up \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\cl{} - 3\cl{}; ?}\\
+	3\di{} & Min with 5=\sp{}4=\he{} or 5=\he{}4=\sp{}. After responder bids 3M, opener will pass with min and bid on with max \\
+	3\he{} & Min with 5\he{} 4\sp{} \\
+	3\sp{} & Max with 5\sp{} 4\he{} \\
+	3\nt{} & 5\up{}5\up{}. Opener declare \\
+	4\cl{} & 5\up{}5\up{}. Opener declare \\
+	4\di{} & 5\up{}5\up{}. Responder declare \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\cl{} - 3\di{}; ?}\\
+	3M & Min. 5-cards \\
+	3\nt{} Max \\
+\end{tabular}\\\\
+
+
+\subsection{Contested Auction of 2\cl{} Opening}
+
+Borrow 1 card for each of the majors from your partner. Deduct 1 card from your minors. Borrow 3 HCPs from your partner, and bid as if opponent opened an intermediate 2. (More detail required)
+
+\section{2\di{} Preempt in a Major}
+
+\subsection{Responses to 2\di{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\di{} - ?}\\
+	2\he{} & Pass or correct \\
+	2\sp{} & Pass or correct (\he{} invite) \\
+	2\nt{} & Ask. I\up{}. Based on value \\
+	3\cl{} & 5\up{}\he{} I\up{} \\
+	3\di{} & 5\up{}\sp{} I\up{} \\
+	3\he{}/\sp{} & Pass or correct. Aggressive \\
+	3\nt{} & To play \\
+	4\cl{} & Ask partner to bid one under his major \\
+	4\di{} & Ask partner to bid his major \\
+	4\he{}/\sp{} & To play (not correctable) \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\di{} - 2\sp{}; ?}\\
+	Pass & Was \sp{} Preempt \\
+	2\nt{} & Was \he{}. Non-min \\
+	3\he{} & Was \he{}. Min \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\di{} - 2\nt{}; ?}\\
+	3\cl{}/\di{} & \he{}/\sp{} Non-min \\
+	3\he{}/\sp{} & \he{}/\sp{} Min \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\di{} - 3\cl{}; ?}\\
+	3\di{} & 3\up\he{} \\
+	3\he{} & 2=\he{} \\
+	3\sp{} & 0-1\he{} \\
+	Higher & I have \he{} too \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\di{} - 3\di{}; ?}\\
+	3\he{} & 0-1\sp{} \\
+	3\sp{} & 2\sp{} \\
+	3\nt{} & 3\up{}\sp{} \\
+	Higher & I have \sp{} too \\
+\end{tabular}
+
+\subsection{Contested Auction of 2\di{}}
+2/3M are pass-or-correct bid. 4 level bids are unchanged. Cueing opponent suit is I\up{}. New suit is natural and F1R. Dbl is penalty.
+
+\section{2\he{} / 2\sp{} Muiderberg}
+
+\subsection{Responses to 2\he{}/\sp{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\he{} / 2\sp{} -  ?}\\
+	2\he{}-2\sp{} & Constructive but NF \\
+	2\nt{} & Ask. FG \\
+	3\cl{} & Pass or correct \\
+	3M - 1 & I\up{} with fit \\
+	3M & block \\
+	2\he{}-3\sp{} & Invitational long suit \\
+	2\sp{}-3\di{} & 5\up{}\he{}. I\up{} \\
+	3\nt{} & To play \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\he{} / 2\sp{} -  2\nt{}}\\
+	3\cl{} & 5=M 4=\cl{}. Puppet to 3\di{} \\
+	3\di{} & 5=M 5=m. 3\he{} ask which: \sp{}=\cl{}; \nt{}=\di{} \\
+	3\he{} & 5=M 4=\di{}, oM s/v \\
+	3\sp{} & 5=M 4=\di{}, \cl{} s/v \\
+	3\nt{} & 5=M 4=\di{}, 5422 \\
+	4\cl{} & 6\up{}M 4=\di{} \\
+	4\di{} & 6\up{}M 5\up\di{} \\
+\end{tabular}\\
+After 2\cl{}-2\nt{}; 3\cl{}-3\di{}, opener's response is analogous to 2\cl{}-2nt{};3\he{}\up \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\sp{} -  3\di{}}\\
+	3\he{} & No \he{} fit. Min \\
+	3\sp{} & No \he{} fit. Extra \\
+	3\nt{} & \he{} tolerance. Extra \\
+	4m & \he{} fit. Extra \\
+	4\he{} & \he{} fit. Min \\
+\end{tabular}
+
+\subsection{Contested Auction of 2\he{} / \sp{}}
+Cueing opponent suit is FG with support. New suit is natural and F1R. Dbl is penalty.
+
+\section{2\nt{}}
+
+2\nt{} is 20-21 balanced. May be 5M332. Modified Puppet response (Muppet). \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - ?}\\
+	3\cl{} & Muppet stayman \\
+    3\di{} & Transfer. 5\up\he{}\\
+    3\he{}& Transfer. 5\up\sp{} \\
+    3\sp{} & Minor suit stayman \\
+    3\nt & To play \\
+    4\cl{}/\di{} & Long \he/\sp{} \\
+    4\he/\sp{} & Long \cl{}/\di{} ST \\
+    4\nt & Bal. ST \\
+    5m & To play
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\cl{}; ?}\\
+	3\di{} & At least one 4=M. No 5cM. \\
+    3\he{}& No 4 or 5cM \\
+    3\sp{} & 5=\sp{} \\
+    3\nt & 5=\he
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\cl{}; 3\di{} - ?}\\
+	3\he{}& 4=\sp{} 3\down\he{}\\
+    3\sp{} & 4=\he{} 3\down\sp{} \\
+    3\nt & To play, was looking for a 5-card major \\
+    4\cl{} & 4-4 majors with slam-interest. Opener rebid 4\di{} to set \he{} as trump. Other bids set \sp{} as trump and cue bid. \\
+    4\di{} & 4-4 majors without slam-interest or slam-going \\
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\cl{}; 3\he{} - ?}\\
+	3\sp{} & Puppet to 3\nt \\
+    3\nt & 5=\sp{} 4=\he{} COG \\
+    4\cl{} & 5=\he{} 4=\sp{} ST. \\
+    4\di{} & 5=\sp{} 4=\he{} ST. \\
+    4\he{}& 5-5 majors, S.T. \\
+\end{tabular}\\\\
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\cl{}; 3\he{} - 3\sp{}; 3\nt{} - ?}\\
+	Pass & To play \\
+	4m & 5\up{}m S.T. \\
+	4\he{}& 5-5 majors. COG
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\cl{}; 3\sp{} - ?}\\
+    3\nt & To play (was looking for a \he{} fit) \\
+    4m & 5\up{}m ST.\\
+    4\he{}& Fit \sp{} ST. \\
+    4\sp{} & To play
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\cl{}; 3\nt{} - ?}\\
+    Pass & To play (was looking for a \sp{} fit) \\
+    4\cl{} & 5\up\cl{} (Denies \he{} fit) ST. \\
+    4\di{} & Transfer to 4\he{}. May have Slam interest \\
+    4\he{}& 5\up\di{} (Denies \he{} fit) ST.
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\di{}; ?}\\
+	3\he{} & Normal accept \\
+    3\sp{}/4m & Super accept, cue bid, no retransfer \\
+    3\nt & 3=\he{} with a good 5-card suit. Then 4\cl{}/\sp{} is Cue-bid ST (no retransfer) and 4\di{} is retransfer \\
+    4\he{} & 4\up\he{} min. \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\di{}; 3\he{} - ?}\\
+	3\sp{} & 3\down\sp{}. Opener rebids 3\nt{} to show 2=\he{}. 4\he{} to play \\
+    3\nt & 4=\sp{} 5=\he{}. COG \\
+    4X & Nat. ST.
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\he{}; ?}\\
+	3\sp{} & Normal accept \\
+    3\nt & 3=\sp{} with a good 5-card suit. Then 4m is Cue-bid ST (no retransfer) and 4\he{} is retransfer \\
+    4X & 4\up\sp{} cue \\
+    4\sp{} & 4\up\sp{} min.
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\he{}; 3\sp{} - ?}\\
+	3\nt & 5=\sp{} COG \\
+    4m & 2\textsuperscript{nd} suit. ST \\
+    4\he{}& Serious ST in \sp{} \\
+    4\sp{} & ST in \sp{}
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\sp{}; ?}\\
+	3\nt & No 4-card minor \\
+    4m & 4\up{}m, better minor. Fit \\
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 3\sp{}; 3\nt{} - ?}\\
+	Pass & To play \\
+	4m & 4=m and 5\up{}om. ST. Then 4X is cue-bid, ST in oM; 4\nt{} is to play. \\
+    4M & 5\up{}5\up{} in minors, s/v in M. ST. Then 4\nt{} is 6-cards RKCB and 5m is to play. \\
+    4\nt & 5-5 minors, no slam interest
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 4\cl{}/\di{}; ?}\\
+	 4\di{}/\he{}& General slam interest \\
+     4\he/\sp{} & No slam interest \\
+     4\nt & RKCB \\
+\end{tabular}\\\\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\nt{} - 4\he/\sp{}: ?}\\
+	 4\nt{} & SI, even number of KCs \\
+     5m & To play \\
+     Others & SI, odd number of KCs, cue
+\end{tabular}
+
+\section{3\nt{}}
+
+3\nt{} shows a 7\up{} minor suit headed by AKQ, no side A or K. \\
+
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{3\nt{} - ?}\\
+	 Pass & Believe that 3\nt{} is likely to make. \\
+     4-7\cl{} & P/C \\
+     4\di{} & Strong. Ask shortness. Then 4M show s/v in M, 4\nt{} shows none, and 5m shows s/v in om (m is the long suit)\\
+     4M & To play \\
+     4\nt & 4 likely tricks. Opener bids slam if he can provide 8
+\end{tabular}
+
+\section{Competitive bidding}
+
+\subsection{Woolsey Defense to 1\nt{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) ? } \\
+    Dbl (vs str) & 5\up{}m 4M \\
+    Dbl (vs wk) & Optional, at least their \nt{} \\
+    2\cl{} & At least 5-4 in major \\
+    2\di{} & 6\up{}M or strong 5cM 4\up{}m \\
+    2M & 5\up{}M 4\up{}m \\
+    2\nt & 5\up\cl{} 5\up\di{}
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}(str)) Dbl (P) ?  } \\
+	Pass & 10\up{} balanced \\
+    2\cl{} & P/C in minors \\
+    2\di{} & Ask opener to bid his major, but NF \\
+    2M & 6\up{}M to play \\
+    2N & Strong ask
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}(str)) Dbl (P) 2\nt{}; (P) ? } \\
+	3\cl{} & 5=\cl{} min \\
+	3\di{} & 5=\di{} min \\
+	3\he{}& 4=\he{} max \\
+	3\sp{} & 4=\sp{} max
+\end{tabular}\\
+Natural continuation. \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) Dbl (Rdbl = Could be passed) ? } \\
+    Pass & long minor. Puppet to 2\cl{} and P/C. \\
+    2\cl{}\up & System on
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) Dbl (Rdbl = a weak minor) ? } \\
+    Pass & They cannot play undoubled below 2\nt{} \\
+    2\cl{}\up & System on
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) Dbl (Rdbl = weak with \cl{}) ? } \\
+    Pass & They cannot play undoubled below 2\nt{} \\
+    2\cl{} & Take out in \cl{} \\
+    2\di{}\up & System on
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) Dbl (2\he{} = Transfer) ? } \\
+    Pass & Non-descriptive. Could be strong. Later double is Pen. \\
+    Dbl & Suggest \he{} fit. Not necessary strong \\
+    2\sp{} & Take out in \sp{} \\
+    2\nt{} & Bal inv. \\
+    3\cl{} & P/C
+\end{tabular}\\
+$\sim$ Other Transfer. \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) Dbl (2\he{} = Nat NF) ? } \\
+    Pass & Non-descriptive. \\
+    Dbl & Penalty \\
+    Cue & 4\up{}oM COG \\
+    Others & Nat \\
+\end{tabular}\\
+$\sim$ Other Suit overcall. \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) 2\cl{} (P) } \\
+    2\di{} & Ask opener to bid his better major \\
+    2M & Preference NF \\
+    2\nt & I\up{}. Asking bid
+\end{tabular}\\
+Natural continuation. Non-game bids are invite (help suit) \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) 2\cl{} (Dbl = strong) ? } \\
+    Pass & Long minor single suit. Puppet to 2\cl{} and P/C. \\
+    2\cl{}\up & System on
+\end{tabular}\\\\
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) 2\cl{} (P) 2\nt{}; (P) ? } \\
+    3\cl{} & Min. 5-4 in majors. Advancer can bid 3\di{} to ask opener to bid his longer major \\
+    3\di{} & 5-5 majors. Advancer places the contract \\
+    3\he{}& Max. 5\up\he{} 4=\sp{} \\
+    3\sp{} & Max. 5\up\sp{} 4=\he{} \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) 2\di{} (P) } \\
+    \he{}/\sp{} & P/C. 2\nt{} shows 5cM + 4\up{}m. \\
+    2\nt & I\up \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) 2\di{} (P) 2M; (P) 2\nt{} (P) ?} \\
+    3\cl{} & Weak, want to play in minor \\
+    3\di{} & Ask major
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) 2\di{} (P) 2\nt{}; (P) ?} \\
+    3\cl{} & Min. 3\di{} ask which major \\
+    3\di{} & Max. 6\up{} in a major. Similar to pass or correct but should bid 3\nt{} if you want to pass below game \\
+    3M & Strong 5M4m
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) 2M (P) ?} \\
+    Pass & To play \\
+    2\nt & I\up \\
+    3m & P/C
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1\nt{}) 2M (P) 2\nt{}; (P) ?} \\
+    3m & 4\up{}m min \\
+    3\he{}& 4\up\cl{} max \\
+    3\sp{} & 4\up\di{} max
+\end{tabular}
+
+\subsection{D.O.N.T.}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{If you have passed and opponent opened 1\nt{}:} \\
+    Dbl & One suiter, advancer bids and then P/C \\
+    2\cl{}/\di{}/\he{} & 4\up{} in the suit bid and 4\up{} in a higher suit \\
+    2\sp{} & 5\up\sp{} 4\up{}m
+\end{tabular}
+
+\subsection{Doubles}
+
+\begin{tabular}{|l|p{6.5cm}}
+    Takeout & (Direct) emphasize majors, minors unclear; (Bal) 4 cards in 2 of remaining suits \\
+    Negative & Up to 4\he{}\\
+    Responsive & Up to 4\he{}\\
+    Supportive & 2\he{}\down{} does not promise extra. \\
+    & 2\sp{}\up{} promise extra \\
+    Game try & After we raise and they compete and raise
+\end{tabular}
+
+\subsection{Pass-double Inversion}
+Pass-double inversion is on when either:
+\begin{itemize}
+\itemsep0em
+	\item We have shown invitational values (or penalty double below 3\textsuperscript{rd} level) and the auction is below 3 of trump
+	\item We have gone through a game-forcing sequence , or
+	\item We have made a penalty double on or above 3\textsuperscript{rd} level, while we are the stronger side
+\end{itemize}
+When pass-double inversion is on and when opponent has made a natural suit (suit X) bid, the meaning of direct position's (A) and 3\textsuperscript{rd} seat's (B) call are as follows: \\
+\begin{tabular}{|l|l|p{6cm}}
+	(A) & (B) & Meaning \\
+	Pass & Dbl & A suggests length in X (default) and B converts to penalty. However, if A pulls after Dbl, then this shows a strong distributional hand \\
+	Pass & Bid & A suggests length in X (default) but B prefer to play \\
+	Dbl & Pass & A suggest shortage in X but B has length in X and decide to defend \\
+	Dbl & Bid & Both players are short in X and prefer to play \\
+	Bid & & Shapeful, non-min
+\end{tabular}
+
+\subsection{OBAR BIDS}
+
+``Opponents bid and raise, balance in direct seat.``\\
+A queen weaker than direct normal overcall.\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1M) P (2M) ?} \\
+    Dbl & Promise 4-4 in any 2 unbid suits. Can be a queen lighter \\
+    2\nt & 5\up{}5\up{} in minors. Can be a queen lighter \\
+    NJ suit & 5\up{} in the suit bid. Can be a queen lighter \\
+\end{tabular}\\
+$\sim$ balance position. $\sim$ (1m) P (1M) P; (2M) and the minor is considered `unbid' \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{(1M) P (2M) X; (P) ?} \\
+    NJ suit & Preference \\
+    2\nt & Ask doubler to bid his lowest 4 card suit. Then P/C \\
+\end{tabular}
+
+\subsection{2\nt{} Complex}
+	Lebensohl: \\
+	Used when only one of the opponents has shown his strength and you are forced to bid. \\
+	Slow shows stopper, fast denies stopper. \\
+	Doubler may bypass the puppet if he has extra. \\\\
+	Scramble: \\
+	Used when both of the opponents have shown his strength and you are forced to bid. \\
+	Partner bids the lowest 4\up{} card suit. \\\\
+	Weak reverse:\\
+	Used when (1) we know we have no game interest, (2) a player has shown a suit, and (3) partner did not raise. 2\nt{} shows a two suiter: 5\up{} cards in the suit bid and 4-5 cards in the (possible) suit above. No tolerance in the third suit when take-out double is available.\\\\
+	Natural: \\
+	Used when only one of the opponents has shown his strength or a simple raise by opponents, and you bid voluntarily. 
+
+\subsection{Michael Cue Bid and Unusual 2\nt{}}
+
+\begin{tabular}{|l|p{6.5cm}}
+	(1m) 2m & Majors. 5-5\up{} or 4=\sp{} 5=\he{} \\
+	(1\he{}) 2\he{} & \sp{} and a minor. 5-5\up{} or 4=\sp{} {}5cm \\
+	(1\sp{}) 2\sp{} & \he{} and a minor. 5-5\up{} \\
+	(1X) 2\nt{} & 5\up{}5\up{} in the lowest unbid suits
+\end{tabular}\\
+$\sim$ balance position except unusual 2\nt{}. \\
+
+Then advancer:
+\begin{itemize}
+\itemsep0em
+	\item Cue bid again to ask for stopper for 3\nt{}.
+	\item Bidding 2\nt{} is balanced invite.
+	\item Bidding the known suit is to play.
+	\item (Cue bid shows one known suit) Bidding any unknown suits are P/C.
+	\item (Cue bid shows two known suit) Bidding the fourth suit is to play (rare).
+\end{itemize}
+
+\subsection{Unusual vs Unusual}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{When 2 suits are specified:} \\
+    Dbl & Penalty in at least one suit (not yet set up forcing pass) \\
+    Cue low & Limit raise or better in opener's suit (If they assume our 1\cl{} is natural, we also do). \\
+    Cue high & FG with 5\up{} in the fourth suit \\
+    Others & Compete \\
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{When only one suit is specified:} \\
+    Dbl & Penalty in the known suit (not yet set up forcing pass) \\
+    Cue & Limit raise or better in opener's suit \\
+    New suit & F1R \\
+    Others & Compete
+\end{tabular}
+
+\subsection{Against Some Artificial Openings}
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{Against strong 1\cl{} / 1\di{} / 2\cl{}} \\
+    Dbl & Majors, at least 5-4 \\
+    \nt & Minors, at least 5-4 (1\nt{}) or 5-5 (2\nt{}) \\
+    Others & 5\up{} suit. Natural
+\end{tabular}\\
+Strength strongly depends on vulnerability and level. \\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{Against gambling / Namyats 3\nt{}} \\
+    Dbl & Strong, subsequent Dbls suggests penalty \\
+    4m & Takeout in m, shortness \\
+    Others & To play
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{Against multi 2\di{} (or standard weak 2 or Muiderberg)} \\
+	\multicolumn{2}{l}{Assume multi 2\di{} bidder holds \sp{}:} \\
+    Dbl & Take out or strong \\
+    NJ suit & Natural \\
+    2\nt & 15-18 Bal. (sys off, cue bid is stayman) \\
+    3\nt & 6\up{}m, 4=oM constructive but NF \\
+    4m & 6\up{}m 5\up{}oM constructive but NF \\
+    Cue & 5\up{}oM, 5\up{}m forcing \\
+\end{tabular}\\
+After (2\di{}) P (2M), we assume (2M) is natural. \\
+After we show an unknown minor, any \cl{} or \di{} are P/C. \\
+
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{Against Flannery 2\di{} (or 2\di{} = weak \he{} or str Bal)} \\
+    Dbl & \di{} \\
+    2\he{}& Take out in \he{}\\
+    Others & Natural
+\end{tabular}\\\\
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{Against 2\he{} = weak with both majors} \\
+    Dbl & Balanced takeout \\
+    Others & Natural
+\end{tabular}\\\\
+
+\vfill
+\hfill \footnotesize{By Gary Leung: garyleung142857@gmail.com}
+
+\end{document}
+
+
