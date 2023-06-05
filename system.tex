@@ -234,7 +234,7 @@ Responder's rebid after BWDH 2\nt{} rebid:
     \item Bidding the known suits at 3-level shows minimum. Bidding opener's 3-card suit promise 5\up{} cards.
     \item Bidding the lower of the remaining suits is game-forcing in the higher known suit.
     \item Bidding the higher of the remaining suits shows mild slam interest in the low known suit.
-    \item Bidding 3\nt{} is to play. Opener can pull with exceptional hand.
+    \item Bidding 3\nt{} is to play (require HCP). Opener can pull with exceptional hand.
     \item Bypassing 3\nt{} fits the lower known suit with serious slam interest. Cue bid.
 \end{itemize}
 
@@ -352,6 +352,7 @@ Without specification, splinter bids promise 4\up{} trump, 2\up{} controls outsi
 
 \subsection{Italian Cue Bids}
 Cue bid in a suit promises 1\textsuperscript{st} or 2\textsuperscript{nd} round control. Bypassing a suit denies them unless that player has shown s/v in that suit. If a player has shown s/v in a suit, he cues it only when he has a bare Ace or void. \\
+
 When an opponent doubles our cue bid (overcalls), redouble (double) shows first round control, continue bidding shows second round control and pass denies first and second round control.
 
 \subsection{RKCB(1430)}
@@ -371,7 +372,7 @@ After the first 2 steps, a relay bid (skip the trump suit if necessary) ask for 
 After any steps response, 5\nt{} promise all key-cards and ask for the lowest King.
 
 \subsection{Fourth Suit}
-After 1-over-1 and non-reverse rebid by opener, fourth suit is invite up (except 1\he{}-1\sp{};2\di{}-3\cl{}, which is FG). 2-level rebid by opener are natural, minimum, and non-forcing; 3-level rebid by opener are game-forcing. \\
+After 1-over-1 and non-reverse rebid by opener, fourth suit is invite up. 2-level rebid by opener are natural, minimum, and non-forcing; 3-level rebid by opener are game-forcing. \\
 
 When the above mentioned fourth suit is not bid and jump to 3-level instead, it shows a game-forcing and unidirectional hand.
 
@@ -414,21 +415,23 @@ When \cl{} (or \di{}) are set as trump at 3\textsuperscript{rd} level, then bidd
 	\al{}3\di{}\he{}\sp{} & 55 GF \\
 \end{tabular}
 
-\medskip
-
-1\nt{} to 2\sp{} rebid are only made when opener have extra playing strength. With bare game-forcing hand, he should go through 1\di{} to 1\sp{} rebids.
-
 \subsection{Walsh Transfer}
 \begin{tabular}{|l|p{6.5cm}}
 	\multicolumn{2}{l}{1\cl{} - 1\di{}; ?} \\
 	\al{}1\he{} & Gazzilli. Either 11-15 5\up{}\cl{} 3\up{}\he{} unbal or 16\up{} many hands \\
-     1\sp{} & 4\up\sp{} unBal. F1R \\
-     1\nt & 12-14 Bal 3\down\he{}\\
-     2\cl{} & 11-15 5\up\cl{} 2\down{}\he{} unBal.\\
-     2\he{} & 12-14 4=\he{} Bal. Help suit game try \\
-     \al{}2\nt & 6+\c{} 3=\he{} I \\
-     3\cl{} & 6+\c{} 2-\he{} I \\
-		 \multicolumn{2}{l}{$\sim$ 1\cl{}-1\he{}}
+		1\sp{} & 4\up\sp{} unBal. F1R \\
+		1\nt & 12-14 Bal 3\down\he{}\\
+		2\cl{} & 11-15 5\up\cl{} 2\down{}\he{} unBal.\\
+		2\he{} & 12-14 4=\he{} Bal. Help suit game try \\
+		\al{}2\nt & 6+\c{} 3=\he{} I \\
+		3\cl{} & 6+\c{} 2-\he{} I \\
+		3\di{} & (No such bid) \\
+		3\he{} & 14-15 Good playing tricks \\
+		\al{}3\sp{}/4\di{} & Game value splinter. Concentrated values \\
+		3\nt{} & To play. Probably running \cl{} \\
+		\al{}4\cl{} & Game value. 2 of AKQ in both \cl{} and \he{} \\
+		4\he{} & To play \\ 
+		\multicolumn{2}{l}{$\sim$ 1\cl{}-1\he{}}
 \end{tabular}
 
 \medskip
@@ -692,6 +695,12 @@ System off. Pass-(re)double inversion applies. Pass either shows length or a goo
 	2\di{} & 11-15 5\up\di{} NF. Responder bids 2\sp{} to invite, and ask for stopper for 3\nt \\
 	2\he{}& 11-15 \he{} raise \\
 	\al{}2\nt &  6\up{}\di{} 3={}\he{} \\
+	3\cl{} & Good suits. invite \\
+	3\di{} & 6\up{}\di{} 2\down{}\he{} \\
+	3\he{} & 14-15 Good playing tricks \\
+	\al{}3\sp{}/4\cl{} & Game value splinter \\
+	3\nt{} & To play. Probably running \di{} \\
+	\al{}4\di{} & Game value. 2 of AKQ in both \he{} and \di{} \\
 	\multicolumn{2}{l}{$\sim$ 1\di{}-1\sp{} except 2\cl{} may be 1\sp{}444; and 2\di{}-2\he{} is Nat inv}
 \end{tabular}
 
@@ -838,9 +847,9 @@ Same as non passed hand except P - 1\di{}; 2\cl{} is nat invite without 4=M. 2M 
 	1\he{}-1\sp{} & 6-FG 4\up\sp{} or 12-14 5\sp{}332 \\
 	1M-1\nt{}& At most invite. (3\down\sp{} after 1\he{}). NF opposite 11-13 bal. 2\down{}M \\
 	\al{}1M-2\cl{} & Art. GF. Denies 3\up{} support or 5\up{}oM \\
-	\al{}1M-(2M-1) & Inv 3=M or GF 3\up{}M (Note 2\nt{}) \\
+	\al{}1M-(2M-1) & Inv 3=M or GF 3\up{}M or 12-15 Void splinter (Note 2\nt{}) \\
 	\al{}1\sp{}-2\di{} & 8\up{} 6\up{}\he{} / 10\up{} 5\up{}\he{} \\ 
-	1M-2M & 6-9 3-card raise or 6-7 4-card raise. HSGT \\
+	1M-2M & 6-9 3-card raise or 6-7 4-card flat raise. HSGT \\
 	1\he{}-2\sp{} & 5\up{}\sp{} GF not 12-14 5\sp{}332. AAB \\ 
 	\al{}1M-2\nt & 6-11 4-card raise or 12-15 singleton splinter \\
 	1M-3M & Preemptive \\
@@ -970,10 +979,15 @@ After 2M / 2\nt{}, a jump to 3\nt{} / 4m shows 12-15 singleton splinter. \\
 	\al{}1\nt{} & 12-14 Bal or 11-15 5=\he{} 2\down{}\sp{} unbal. NF \\
 	\al{}2\cl{} & Gazzilli. Most 16\up{} Hands \\
 	\al{}2\di{} & Art. 15-17 Bal (Rebid \nt{}) or 3=\sp{} 11-15 \\
-     2\he{} & 11-15 6\up\he{}\\
-     2\sp{} & 11-15 4\up\sp{} \\
+	2\he{} & 11-15 6\up\he{}\\
+	2\sp{} & 11-15 4\up\sp{} \\
 	\al{}2\nt{} & 6\up{}\he{} 3=\sp{} I\up{} \\
-     3\he{} & 6\up{}\he{} 2\down{}\sp{} I \\
+	3m & Nat. Good suits \\
+	3\he{} & 6\up{}\he{} 2\down{}\sp{} I \\
+	3\sp{} & 14-15 Good playing tricks \\
+	3\nt{} & To play \\
+	4m & Game value splinter \\
+	4M & To play \\
 \end{tabular}
 
 \medskip
