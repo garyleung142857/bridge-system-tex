@@ -1,3 +1,5 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{relsize}
@@ -8,15 +10,23 @@
 \usepackage[margin=0.5in]{geometry}
 \usepackage[light, semibold]{sourceserifpro}
 \usepackage[T1]{fontenc}
+\usepackage{fdsymbol}
+\usepackage{xcolor}
 
-\renewcommand{\sp}{\ensuremath\spadesuit}
-\newcommand{\he}{\ensuremath\heartsuit}
-\newcommand{\di}{\ensuremath\diamondsuit}
-\newcommand{\cl}{\ensuremath\clubsuit}
+\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
+\DeclareMathSymbol{\varspade}{\mathalpha}{extraup}{81}
+\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
+\DeclareMathSymbol{\vardiamond}{\mathalpha}{extraup}{87}
+\DeclareMathSymbol{\varclub}{\mathalpha}{extraup}{84}
+
+\renewcommand{\sp}{\textcolor{RoyalBlue}{$\varspade$}}
+\newcommand{\he}{\textcolor{RubineRed}{$\varheart$}}
+\newcommand{\di}{\textcolor{Peach}{$\vardiamond$}}
+\newcommand{\cl}{\textcolor{LimeGreen}{$\varclub$}}
 \newcommand{\nt}{\relsize{-1}NT\relsize{1}}
 \newcommand{\up}{\textsuperscript{+}}
 \newcommand{\down}{\textsuperscript{-}}
-\newcommand{\al}{$\star$ }
+\newcommand{\al}{\textcolor{red}{$\star$}}
 
 
 \begin{document}
