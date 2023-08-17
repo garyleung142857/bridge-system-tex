@@ -13,11 +13,11 @@
 \usepackage{fdsymbol}
 \usepackage{xcolor}
 
-\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
-\DeclareMathSymbol{\varspade}{\mathalpha}{extraup}{81}
-\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
-\DeclareMathSymbol{\vardiamond}{\mathalpha}{extraup}{87}
-\DeclareMathSymbol{\varclub}{\mathalpha}{extraup}{84}
+\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}  % need package arev
+\DeclareMathSymbol{\varspade}{\mathord}{extraup}{81}
+\DeclareMathSymbol{\varheart}{\mathord}{extraup}{86}
+\DeclareMathSymbol{\vardiamond}{\mathord}{extraup}{87}
+\DeclareMathSymbol{\varclub}{\mathord}{extraup}{84}
 
 \renewcommand{\sp}{\textcolor{RoyalBlue}{$\varspade$}}
 \newcommand{\he}{\textcolor{RubineRed}{$\varheart$}}
@@ -43,18 +43,18 @@
 \section{Structure}
 
 \begin{tabular}{|l|p{6.5cm}}
- 1\cl{} & 11-21 5\up\cl{} unbal or 4(41)4 or 12-14 Bal \\
- 1\di{} & 11-21 5\up\di{} unbal or =1444 / =4441 \\
- 1\he{} & 11-21 5\up\he{} \\
- 1\sp{} & 11-21 5\up\sp{} \\
- 1\nt{} & 15-17 Bal. Include 5M332 \\
- 2\cl{} & Art. Strong. 23\up{} Bal / GF \\
- 2\di{} & Weak in a major, or 18-19 Bal, or 4441 16\up{} \\
- 2\he{} & (9)10-12 5\up\he{} 3\down{}\sp{} with short / 6\up{}\he \\
- 2\sp{} & (9)10-12 5\up\sp{} 3\down{}\he{} with short / 6\up{}\sp \\
- 2\nt & 20-21 Bal. Include 5M332 \\
- 3/4/5X & Natural preempt \\
- 3\nt & 7\up{} major headed with AKQ. 8.5 - 9.5 tricks. \\
+	1\cl{} & 11-21 5\up\cl{} unbal or 4(41)4 or 12-14 Bal \\
+	1\di{} & 11-21 5\up\di{} unbal or =1444 / =4441 \\
+	1\he{} & 11-21 5\up\he{} \\
+	1\sp{} & 11-21 5\up\sp{} \\
+	1\nt{} & 15-17 Bal. Include 5M332 \\
+	2\cl{} & Art. 18-21 Bal / Unbal GF \\
+	2\di{} & Weak in a major, or 25\up{} Bal, or 4441 16\up{} \\
+	2\he{} & (9)10-12 5\up\he{} 3\down{}\sp{} with short / 6\up{}\he \\
+	2\sp{} & (9)10-12 5\up\sp{} 3\down{}\he{} with short / 6\up{}\sp \\
+	2\nt & 22-24 Bal. Include 5M332 \\
+	3/4/5X & Natural preempt \\
+	3\nt & 7\up{} major headed with AKQ. 8.5 - 9.5 tricks. \\
 \end{tabular}
 
 \medskip
@@ -1088,7 +1088,8 @@ After 2M / 2\nt{}, a jump to 3\nt{} / 4m shows 12-15 singleton splinter. \\
 \subsection{Passed Hand Bidding of 1\he{}/\sp}
 1\sp{} and 1\nt{} responses are unchanged and system on. \\
 
-2\cl{} and 2\di{} responses are two-way reversed Drury. 3 and 4\up{} cards support respectively. \\
+2\cl{} is Drury. 3\up{} support 9\up{}. \\
+2\di{} is Hx in M, maximal pass. Tend to be bal \\
 
 Single jump shifts are fit jumps. 6-9 HCP with 4\up{} support and a good 5\up{} side suit. \\
 
@@ -1105,10 +1106,10 @@ Single jump shifts are fit jumps. 6-9 HCP with 4\up{} support and a good 5\up{} 
 
 \begin{tabular}{|l|p{6.5cm}}
 	\multicolumn{2}{l}{P - 1M; 2\di{}; ?}\\
-	2M & Minimum. Responder can pass to sign-off, continue with help suit game try, or jump to 4M with extra trumps \\
-	NJ suit & Help suit game try \\
-	3M & Set trump. Slam try \\
-	Jump suit & Splinter \\
+	2M & Minimum. To play \\
+	2\nt{} & Inv to 3\nt{} \\
+	New suit & Set trump. HSGT \\
+	3\nt{} / 4M & To play \\
 \end{tabular}
 
 \subsection{Contested Auction of 1\he/\sp{}}
@@ -1527,12 +1528,11 @@ Lebensohl applies (slow show), doubles are takeout at 2-level (real suit) or sui
 
 \begin{tabular}{|l|p{6.5cm}}
 	\multicolumn{2}{l}{2\cl{} - ?}\\
-	\al{}2\di{} & 0-1 Controls \\
-	\al{}2\he{} & 2 controls \\
-	\al{}2\sp{} & 3\up{} controls \\
-	\al{}2\nt{} & Any 6-card suit AKQ. No A or K outside  \\
+	\al{}2\di{} & Semi-pos\up{} \\
+	2M & Weak (0-5). (4)5M. To play opposite 18-21 Bal. Opener could raise with fit \\
+	\al{}2\nt{} & Weak in both minors \\
 	3X & 6-card suit, 2 of AKQ. No A or K outside \\
-	\al{}3\nt{} & Any 7\up{} solid suit. No A or K outside \\
+	\al{}3\nt{} & Any 6\up{} solid suit. No A or K outside \\
 	4X & 7\up{} suit, 2 of AKQ. No A or K outside \\
 \end{tabular}
 
@@ -1540,9 +1540,9 @@ Lebensohl applies (slow show), doubles are takeout at 2-level (real suit) or sui
 
 \begin{tabular}{|l|p{6.5cm}}
 	\multicolumn{2}{l}{2\cl{} - 2\di{}; ?}\\
-	\al{}2\he{} & \he{} / Bal GF \\
+	\al{}2\he{} & \he{} GF / 20-21 Bal. Sys on \\
 	2\sp{} & Nat. GF \\
-	2\nt{} & 22-24. Bal / semi-bal. Sys on \\
+	2\nt{} & 18-19. Bal. Sys on \\
 	3\cl{} & 5\up{}\cl{} unbal. 10\up{} tricks \\
 	3\di{} & 5\up{}\di{} unbal. No 4-card major. 10\up{} tricks \\
 	\al{}3M & 4=M 5\up{}\di{} GF \\
@@ -1566,7 +1566,7 @@ Lebensohl applies (slow show), doubles are takeout at 2-level (real suit) or sui
 
 \begin{tabular}{|l|p{6.5cm}}
 	\multicolumn{2}{l}{2\cl{} - 2\di{}; 2\he{} - 2\sp{}; ?}\\
-	2\nt{} & Bal GF. System on \\
+	2\nt{} & 20-21 Bal. System on \\
 	\al{}3\cl{} & One suited \he{} \\
 	\al{}3\di{} & \he{}+\sp{} \\
 	\al{}3\he{} & \he{}+\cl{} \\
@@ -1599,28 +1599,29 @@ Lebensohl applies (slow show), doubles are takeout at 2-level (real suit) or sui
 
 \begin{tabular}{|l|p{6.5cm}}
 	\multicolumn{2}{l}{2\cl{} - 2M}\\
-	2\nt{} & May be offshape and wide range. System on \\
+	Pass. To play \\
+	2\nt{} & 20-21 Bal. Too strong to pass \\
+	3M & Invite \\
+	3X & Nat. F1R \\
 \end{tabular}
 
 
 \subsection{Contested Auction of 2\cl{} Opening}
 
 \begin{tabular}{|l|p{6.5cm}}
-	\multicolumn{2}{l}{2\cl{} (Dbl or 2\di{}) ?}\\
-	Dbl / Rdbl & 0-1 control \\
-	Pass & 2\up{} control \\
-	2X & 2\up{} control. 5\up{} suit \\
-	2\nt{}\up{} & as if without competition \\
+	\multicolumn{2}{l}{2\cl{} (Dbl) ?}\\
+	Pass & Neutral. Could be very weak \\
+	Rdbl & Take out in \cl{}. GF \\
+	2\di{}\up{} & Sys on \\
 \end{tabular}
 
 \medskip
 
 \begin{tabular}{|l|p{6.5cm}}
-	\multicolumn{2}{l}{2\cl{} (2\he{}\up{}) ?}\\
-	Dbl & Weak (0-4) \\
-	Pass & semi positive or better. GF \\
-	2\sp{} & Natural \\
-	2\nt{}\up{} & as if without competition \\
+	\multicolumn{2}{l}{2\cl{} (2\di{}\up{}) ?}\\
+	Pass & Neutral. Could be very weak. \\
+	Dbl & Take-out. GF or leave as PEN \\
+	Suit & Natural. GF \\
 \end{tabular}
 
 \medskip
@@ -1631,7 +1632,7 @@ Lebensohl applies (slow show), doubles are takeout at 2-level (real suit) or sui
 	2\nt{} & Stoppers \\
 	Suit & Nat. GF \\
 	Cue & Two-suited GF \\
-	4M & To play (even if their suit) \\
+	4M & To play (even if their suit to handle psyche) \\
 \end{tabular}
 
 \medskip
@@ -1673,7 +1674,7 @@ Lebensohl applies (slow show), doubles are takeout at 2-level (real suit) or sui
 	\multicolumn{2}{l}{2\di{} - 2\he{}; ?}\\
 	Pass & \he{} Preempt \\
 	2\sp{} & \sp{} Preempt \\
-	2\nt{} & 18-19 Bal. System on \\
+	2\nt{} & 25\up{} Bal. System on \\
 	\al{}3\cl{} & 16\up{} =44(41). 3\di{} ask short (3\he{}=\cl{}). 3M suggest to play \\
 	\al{}3\di{}/\he{} & 16-18 4441. Short in \he{}/\sp{} \\
 	\al{}3\sp{}/\nt{} & 19\up{} 4441. Short in \he{}/\sp{}. GF \\
@@ -1684,13 +1685,30 @@ Lebensohl applies (slow show), doubles are takeout at 2-level (real suit) or sui
 
 \begin{tabular}{|l|p{6.5cm}}
 	\multicolumn{2}{l}{2\di{} - 2\nt{}; ?}\\
-	\al{}3\cl{} & 5-cards. 3\di{} reask \\
+	\al{}3\cl{} & 5-cards. 3\di{} re-ask \\
 	\al{}3\di{}/\he{} & Min \he{}/\sp{} \\
 	\al{}3\sp{}/\nt{} & Max \he{}/\sp{} \\
 \end{tabular}
 
 \subsection{Contested Auction of 2\di{}}
-2/3M are pass-or-correct bid. 4 level bids are unchanged. Cueing opponent suit is I\up{}. New suit is natural and F1R. Dbl is penalty.
+4 level bids are unchanged. Cueing opponent suit is I\up{}. New suit is natural and F1R. Dbl is penalty.
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\di{} (2M); ?}\\
+	Dbl & P/C. Usually 10\down{} HCP \\
+	Higher & Sys-on
+\end{tabular}
+
+\medskip
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{2\di{} (Suit) P (P); ?}\\
+	Pass & Was preempt \\
+	Dbl & Pen. 4441. 4 in opponent suit, or 25\up{} Bal not suitable for \nt{} \\
+	\nt{} & 25\up{} Bal stopped. Sys on over 2\nt{} \\
+	suit + 1 & 4441 short in opponent suit. NF \\
+	suit + 2 & 4441 short in opponent suit. 19\up{} Forcing \\
+\end{tabular}
 
 \section{2\he{} / 2\sp{} Fantunes}
 
@@ -1883,11 +1901,10 @@ All relays are off. New suits are fit with a side suit. 2\nt{} is a good raise.
 Sequences that follows 2\nt{} developments:
 \begin{itemize}
 	\itemsep0em
-	\item 2\nt{}: 20-21
-	\item 2\di{} - 2M; 2\nt{}: 18-19
-	\item 2\cl{} - 2\di{}; 2\nt{}: 22-24
-	\item 2\cl{} - 2\di{}; 2\he{} - 2\sp{}; 2\nt{}: 25\up{} GF. Wide range
-	\item 2\cl{} - 2M; 2\nt{}: 22\up{} GF. Wide range, could be off shape
+	\item 2\nt{}: 22-24
+	\item 2\di{} - 2M; 2\nt{}: 25\up{} wide range
+	\item 2\cl{} - 2\di{}; 2\nt{}: 18-19
+	\item 2\cl{} - 2\di{}; 2\he{} - 2\sp{}; 2\nt{}: 20-21
 	\item (2X) 2\nt{} or (2X) P (P) 2\nt{}: 16-18. Could be offshape
 	\item Any other positions of the above sequences
 \end{itemize}
@@ -2091,7 +2108,7 @@ After the 1\textsuperscript{st} step showing no keycard, partner can ask the tru
 \section{Competitive bidding}
 
 \subsection{Advancing Natural Overcalls}
-Suit overcalls are natural. 1-level 10-16, 2-level 12-16. \\
+Suit overcalls are natural. 1-level (5)8-16, 2-level 12-16. \\
 
 \begin{tabular}{|l|p{6.5cm}}
 	\multicolumn{2}{l}{(1\cl{}) 1\di{} (P) ? } \\
@@ -2208,6 +2225,17 @@ Suit overcalls are natural. 1-level 10-16, 2-level 12-16. \\
 	Raise & Comp \\
 	3\nt{} & to play \\
 	\al{}Cue & Fit I\up{}. Tends to be bal \\
+\end{tabular}
+
+\medskip
+
+\begin{tabular}{|l|p{6.5cm}}
+	\multicolumn{2}{l}{If Advancer is a passed-hand} \\
+	\multicolumn{2}{l}{Previous advance methods are off} \\
+	Cue-bid & limit support. Defensive \\
+	2\nt{} & limit support. Offensive \\
+	2om & Constr. Tolerance in partner's suit \\
+	2oM & Constr. Tolerance in partner's suit
 \end{tabular}
 
 \subsection{Advancing Takeout Doubles}
