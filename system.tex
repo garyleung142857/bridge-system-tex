@@ -10,24 +10,15 @@
 \usepackage[margin=0.5in]{geometry}
 \usepackage[light, semibold]{sourceserifpro}
 \usepackage[T1]{fontenc}
-\usepackage{fdsymbol}
-\usepackage{xcolor}
 
-\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}  % need package arev
-\DeclareMathSymbol{\varspade}{\mathord}{extraup}{81}
-\DeclareMathSymbol{\varheart}{\mathord}{extraup}{86}
-\DeclareMathSymbol{\vardiamond}{\mathord}{extraup}{87}
-\DeclareMathSymbol{\varclub}{\mathord}{extraup}{84}
-
-\renewcommand{\sp}{\textcolor{RoyalBlue}{$\varspade$}}
-\newcommand{\he}{\textcolor{RubineRed}{$\varheart$}}
-\newcommand{\di}{\textcolor{Orange}{$\vardiamond$}}
-\newcommand{\cl}{\textcolor{Green}{$\varclub$}}
+\renewcommand{\sp}{\ensuremath\spadesuit}
+\newcommand{\he}{\ensuremath\heartsuit}
+\newcommand{\di}{\ensuremath\diamondsuit}
+\newcommand{\cl}{\ensuremath\clubsuit}
 \newcommand{\nt}{\relsize{-1}NT\relsize{1}}
 \newcommand{\up}{\textsuperscript{+}}
 \newcommand{\down}{\textsuperscript{-}}
-\newcommand{\al}{\textcolor{red}{$\bullet$}}
-
+\newcommand{\al}{$\bullet$}
 
 \begin{document}
 \fontfamily{lmr}
